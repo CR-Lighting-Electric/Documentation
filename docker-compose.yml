@@ -1,0 +1,12 @@
+name: documentation
+
+services:
+  server:
+    image: hugomods/hugo:exts-non-root
+    container_name: server
+    command: server -D
+    volumes:
+      - ./:/src
+      - ~/hugo_cache:/tmp/hugo_cache
+    ports:
+      - 1313:1313
