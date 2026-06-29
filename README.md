@@ -1,4 +1,10 @@
-# Hextra Starter Template
+# CR Lighting & Electric Documentation
+
+This project was created to host documentation, procedures, and processes related to the work at CR Lighting Electric for company personnel to utilize and reference.
+
+![Picture](static/clear-back-logo.png)
+
+# Hextra Template Theme Help
 
 [![Deploy Hugo site to Pages](https://github.com/imfing/hextra-starter-template/actions/workflows/pages.yaml/badge.svg)](https://github.com/imfing/hextra-starter-template/actions/workflows/pages.yaml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6e83fd88-5ffe-4808-9689-c0f3b100bfe3/deploy-status)](https://app.netlify.com/sites/hextra-starter-template/deploys)
@@ -6,25 +12,6 @@
 
 
 🐣 Minimal template for getting started with [Hextra](https://github.com/imfing/hextra)
-
-![hextra-template](https://github.com/imfing/hextra-starter-template/assets/5097752/c403b9a9-a76c-47a6-8466-513d772ef0b7)
-
-[🌐 Demo ↗](https://imfing.github.io/hextra-starter-template/)
-
-## Quick Start
-
-Use this template to create your own repository:
-
-<img src="https://docs.github.com/assets/cb-77734/mw-1440/images/help/repository/use-this-template-button.webp" width=400 />
-
-You can also quickly start developing using the following online development environment:
-
-- [GitHub Codespaces](https://github.com/codespaces)
-
-    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/imfing/hextra-starter-template)
-
-    Create a new codespace and follow the [Local Development](#local-development) to launch the preview
-
 
 ## Deployment
 
