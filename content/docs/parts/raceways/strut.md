@@ -5,10 +5,9 @@ prev: docs/parts/raceways/elbows
 next: docs/parts
 ---
 
-Strut provides modular, tool-free raceway assembly. Installers can easily mount electrical conduits, junction boxes, cable trays, and lighting systems using spring nuts and bolts without any cutting or welding on-site. This flexibility reduces labor time and allows for rapid changes or reconfiguration when needed.
+Stru provides modular, tool-free assembly. Installers can easily mount electrical conduits, junction boxes, cable trays, and lighting systems using spring nuts and bolts without any cutting or welding on-site. This flexibility reduces labor time and allows for rapid changes or reconfiguration when needed.
 
 ![](/images/strut-example.png)
-
 ### Common Materials
 
 - **Mild Steel**: The most common and cost-effective choice, suitable for indoor or dry environments.
@@ -38,11 +37,14 @@ Strut provides modular, tool-free raceway assembly. Installers can easily mount 
 
 `(DEPTH)` `HOLES` `(MATERIAL)` `(FINISH)` `(MEASUREMENTS)` `Strut`
 
-- `DEPTH` refers to the standard depth (and therefore measurements) that can be used. Options include (Shallow, Deep). If not present, then the measurements option should be included with a depth and width of the strut.
-- `HOLES` refers to the hole type present on the strut, whether there are no holes present (Solid), with holes along the strut (Slotted), or elongated holes (Elongated-Slotted).
-- `(MATERIAL)` defines the optional material specification where typical materials include Steel and Aluminum. If left off, assume the strut should be the standard steel material.
-- `(FINISH)` if specified, a specific finish can be applied such as Pre-Galvanized, HDG, Powder-Coated (COLOR). If left off, assume a plain finish.
-- `(MEASUREMENTS)` defines the measurements of the custom strut if the depth parameter is left off. There should exist two measurements here: the width and depth of the strut in normal measurement form such as 1-1/4"x1-1/2" as example.
+| Descriptor       | Explanation                                                                                                                                                                                                              |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `DEPTH`          | Refers to the standard depth (and therefore measurements) that can be used. Options include (Shallow, Deep). If not present, then the measurements option should be included with a depth and width of the strut.        |
+| `HOLES`          | Refers to the hole type present on the strut, whether there are no holes present (Solid), with holes along the strut (Slotted), or elongated holes (Elongated-Slotted).                                                  |
+| `(MATERIAL)`     | Defines the optional material specification where typical materials include Steel and Aluminum. If left off, assume the strut should be the standard steel material.                                                     |
+| `(FINISH)`       | If specified, a specific finish can be applied such as Pre-Galvanized, HDG, Powder-Coated (COLOR). If left off, assume a plain finish.                                                                                   |
+| `(MEASUREMENTS)` | Defines the measurements of the custom strut if the depth parameter is left off. There should exist two measurements here: the width and depth of the strut in normal measurement form such as 1-1/4"x1-1/2" as example. |
+
 
 ### Example Names
 

@@ -7,6 +7,7 @@ next: docs/parts/wiring/cord
 
 Cables are commonly used in commercial wiring for structured cabling, networking, and power distribution. They are designed to handle the demands of a stable environment as a permanent installation, providing reliable performance over time.
 
+![](/images/cable-example.png)
 ## MC Cable (Metallic Cable)
 
 Consists of insulated conductors enclosed in an interlocked aluminum or steel armor, which provides mechanical protection and eliminates the need for conduit in many installations. This robust design makes MC cable a convenient and cost-effective alternative to traditional wiring methods, allowing for faster and more flexible installations. It's prohibited where it could be subject to physical damage, corrosive environments, or direct burial.
@@ -29,13 +30,15 @@ Fire alarm cable is a low-voltage cable used specifically for fire alarm signal 
 
 `SIZE/CONDUCTORS` `TYPE` `(STRANDING)` `(CONDUCTOR MATERIAL)` `(ARMOR MATERIAL) (Armor)` `(SHIELDING)` `Cable` `(COLOR)`
 
-- `SIZE/CONDUCTORS` refers to the wiring size within the cord, and the number of conductors present. For example, 12/2 cord would mean each wire is 12 AWG with 2 conductors each, and usually one ground.
-- `TYPE` defines the cable type whether that is MC cable, NM-B, NMC, FPLP, FPLR, MC-FPLP, MC-FPLR etc.
-- `(STRANDING)` defines the optional characteristic of the stranding type of the conductors themselves whether that is stranded or solid in title form (Stranded, Solid). If left off, assume stranded. If fire alarm cable and left off, assume solid.
-- `(CONDUCTOR MATERIAL)` refers to the material of the conductors themselves such as aluminum or copper in title form (Aluminum, Copper). Optional characteristic where if not present, assume copper.
-- `(ARMOR MATERIAL) (Armor)` defines the material of the actual metal clad surrounding the conductors inside, where typical armor materials are steel or aluminum. If specified, put in title form with "Armor" and if left off, assume aluminum as the trade standard if MC. If not MC, typical cabling is surrounded in a PVC sheathing.
-- `(SHIELDING)` defines an optional parameter to designate if the cabling is shielded or not. Options in title form include Shielded, or Non-Shielded. If left off, it is assumed that the cable is non-shielded.
-- `(COLOR)` if specified, cabling can be ordered in a specific color.
+| Descriptor                 | Explanation                                                                                                                                                                                                                                                                                                   |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `SIZE/CONDUCTORS`          | Refers to the wiring size within the cord, and the number of conductors present. For example, 12/2 cord would mean each wire is 12 AWG with 2 conductors each, and usually one ground.                                                                                                                        |
+| `TYPE`                     | Defines the cable type whether that is MC cable, NM-B, NMC, FPLP, FPLR, MC-FPLP, MC-FPLR etc.                                                                                                                                                                                                                 |
+| `(STRANDING)`              | Defines the optional characteristic of the stranding type of the conductors themselves whether that is stranded or solid in title form (Stranded, Solid). If left off, assume stranded. If fire alarm cable and left off, assume solid.                                                                       |
+| `(CONDUCTOR MATERIAL)`     | Refers to the material of the conductors themselves such as aluminum or copper in title form (Aluminum, Copper). Optional characteristic where if not present, assume copper.                                                                                                                                 |
+| `(ARMOR MATERIAL) (Armor)` | Defines the material of the actual metal clad surrounding the conductors inside, where typical armor materials are steel or aluminum. If specified, put in title form with "Armor" and if left off, assume aluminum as the trade standard if MC. If not MC, typical cabling is surrounded in a PVC sheathing. |
+| `(SHIELDING)`              | Defines an optional parameter to designate if the cabling is shielded or not. Options in title form include Shielded, or Non-Shielded. If left off, it is assumed that the cable is non-shielded.                                                                                                             |
+| `(COLOR)`                  | If specified, cabling can be ordered in a specific color.                                                                                                                                                                                                                                                     |
 
 ### Example Names
 

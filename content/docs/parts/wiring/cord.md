@@ -7,6 +7,8 @@ next: docs/parts/wiring/wire
 
 Portable cords are flexible, multi-conductor cables designed for temporary electrical power connections and used across a variety of settings. These cords are built to be durable and resistant to various environmental factors, such as oil, chemicals, moisture, and physical abrasion, making them suitable for both indoor and outdoor applications. The construction of portable cords typically includes a protective outer jacket, insulation around each conductor, and sometimes additional shielding to prevent electromagnetic interference.
 
+![](/images/cord-example.png)
+
 The type SOOW cable is a heavy-duty, multi-conductor portable power cord designed for extreme durability and flexibility. The SOOW cable meaning is an acronym defined by industry standards:
 
 - **S = Service cord.** This means the cable is designed for demanding, portable use and is rated for up to 600 volts.
@@ -21,11 +23,13 @@ The type SOOW cable is a heavy-duty, multi-conductor portable power cord designe
 
 `SIZE/CONDUCTORS` `TYPE` `(STRANDING)` `(MATERIAL)` `(VOLTAGE)` `Portable Cord` `COLOR`
 
-- `SIZE/CONDUCTORS` refers to the wiring size within the cord, and the number of conductors present. For example, 12/2 cord would mean each wire is 12 AWG with 2 conductors each, and usually one ground.
-- `TYPE` refers to the industry standard letter code described above. SOOW cord is a common purchase, although requests for various types may be necessary.
-- `(STRANDING) (MATERIAL)` refer to the state of the wiring inside and material, wether that be stranded or solid and copper or aluminum. Stranded copper is the most common state and material for portable cord, so if these fields are left off, then assume stranded copper.
-- `(VOLTAGE)` is an optional specifier to clarify what voltage rating the portable cord should be. All SOOW portable cord is 600V rated as a service cable, with SJOOW rated for 300V. If voltage is left off, assume the letter code rating present.
-- `COLOR` represents the color the shielding should be (black, red, blue, etc).
+| Descriptor               | Explanation                                                                                                                                                                                                                                            |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `SIZE/CONDUCTORS`        | Refers to the wiring size within the cord, and the number of conductors present. For example, 12/2 cord would mean each wire is 12 AWG with 2 conductors each, and usually one ground.                                                                 |
+| `TYPE`                   | Refers to the industry standard letter code described above. SOOW cord is a common purchase, although requests for various types may be necessary.                                                                                                     |
+| `(STRANDING) (MATERIAL)` | Refer sto the state of the wiring inside and material, wether that be stranded or solid and copper or aluminum. Stranded copper is the most common state and material for portable cord, so if these fields are left off, then assume stranded copper. |
+| `(VOLTAGE)`              | Optional specifier to clarify what voltage rating the portable cord should be. All SOOW portable cord is 600V rated as a service cable, with SJOOW rated for 300V. If voltage is left off, assume the letter code rating present.                      |
+| `(COLOR)`                | Represents the color the shielding should be (black, red, blue, etc). If left off, assume black.                                                                                                                                                       |
 
 ### Example Cord Names
 
@@ -45,5 +49,3 @@ Cords are measured in the trade size standard of linear feet. Portable cord may 
 #### Quick Notes
 
 If job sites are ordering standard SO cord, the prefabrication shop can handle it.
-
-

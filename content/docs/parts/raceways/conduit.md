@@ -8,7 +8,6 @@ next: docs/parts/raceways/elbows
 Conduit is used to protect and route electrical wiring. There are a few different standard conduit materials that are used in typical commercial electrical applications. They are accessible in a wide range of materials & constructions each customized to a specific uses based on the environmental factors, safety standards & mechanical strength. The explanations below were adapted from [Forum Electrical](https://forumelectrical.com/11-types-of-electrical-conduits-and-their-applications/).
 
 ![](/images/conduit-example.png)
-
 ### **EMT** (Electrical Metallic Tubing)
 
 Lightweight, galvanized metal pipe that may be easily bent and installed. EMT is thinner than rigid conduits but yet provides enough protection for conductors. Typically utilized in interior places that require mechanical protection but have low environmental exposure. EMT is not suited for use in outdoor or corrosive conditions unless properly prepared.
@@ -59,10 +58,12 @@ When ordering and describing conduit, use the following convention:
 
 `SIZE` `TYPE` `(MATERIAL)` `(SCHEDULE)` `Conduit`
 
-- `SIZE` includes the trade size of the conduit in inches ("). Whole number with partial measurements should include a hyphen to keep measurements searchable.
-- `TYPE` refers to the type of conduit (EMT, IMC, PVC, etc.)
-- `(MATERIAL)` indicates the material the conduit should be made of. Most of the conduit types have a standard default material, so unless the material needs to be specific, this portion of the convention can be left off. For metal conduits, assume Steel if left off. If specified, use the full material name.
-- `(SCHEDULE)` refers to the schedule number if the type of conduit is PVC. There are two standards: Schedule 40, the most commonly purchased, and Schedule 80, which is thicker and stronger in pressured conditions. Put in (Schedule-40, Schedule-80) form.
+| Descriptor   | Explanation                                                                                                                                                                                                                                                                                            |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `SIZE`       | Includes the trade size of the conduit in inches ("). Whole number with partial measurements should include a hyphen to keep measurements searchable.                                                                                                                                                  |
+| `TYPE`       | Refers to the type of conduit (EMT, IMC, PVC, etc.)                                                                                                                                                                                                                                                    |
+| `(MATERIAL)` | Indicates the material the conduit should be made of. Most of the conduit types have a standard default material, so unless the material needs to be specific, this portion of the convention can be left off. For metal conduits, assume Steel if left off. If specified, use the full material name. |
+| `(SCHEDULE)` | Refers to the schedule number if the type of conduit is PVC. There are two standards: Schedule 40, the most commonly purchased, and Schedule 80, which is thicker and stronger in pressured conditions. Put in (Schedule-40, Schedule-80) form.                                                        |
 
 **Example Conduit Names**
 

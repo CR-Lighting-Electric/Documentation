@@ -36,6 +36,6 @@ Constructed from aluminum, stainless steel, or engineered composites, pulling he
 
 - 500 KCMIL Pulling Head
 - 12 AWG Compression-Type Pulling Head
-- 4/0 AWG Compression-Head Pulling Head
+- 4/0 AWG Crimp-Type Pulling Head
 
 
