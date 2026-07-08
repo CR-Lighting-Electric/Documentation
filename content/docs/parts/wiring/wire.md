@@ -5,7 +5,6 @@ prev: docs/parts/cord
 next: docs/
 ---
 
-
 Conductive material that routes an electrical current to some application or device. Wire comes in a large variety of sizing in two more common and cost effective materials: copper and aluminum. Each can be insulated with different materials that have different protective properties. High voltage and low voltage wiring uses different color schemes.
 
 ![](/images/wire-example.png)
@@ -24,7 +23,7 @@ Conductive material that routes an electrical current to some application or dev
 
 The code specifically calls out wire sizes on AWG, and more importantly, KCMIL. Suppliers and foremen may use MCM for their sizing on wiring, but this could easily be misread and misunderstood as MC for metal clad wiring. Let's use KCMIL to keep the two distinct. A wire component can be named as such:
 
-`SIZE` `STRANDING` `MATERIAL` `INSULATION` `COLOR`
+`SIZE` `STRANDING` `MATERIAL` `INSULATION` `Wire` `COLOR`
 
 | Descriptor   | Explanation                                                                                                                                                                                                                                                                  |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,12 +35,12 @@ The code specifically calls out wire sizes on AWG, and more importantly, KCMIL. 
 
 ### Example Wiring Names
 
-- `750 KCMIL Stranded Aluminum XHHW-2 Black`
-- `4 AWG Stranded Copper THWN-2 Red`
-- `3/0 AWG Solid Copper THHN Blue`
-- `1/0 AWG Solid Aluminum XHHW-2 Green`
-- `250 KCMIL Stranded Copper THHN-2 Brown`
-- `500 KCMIL Stranded Aluminum XHHW-2 Black w/White Stripe`
+- `750 KCMIL Stranded Aluminum XHHW-2 Wire Black`
+- `4 AWG Stranded Copper THWN-2 Wire Red`
+- `3/0 AWG Solid Copper THHN Wire Blue`
+- `1/0 AWG Solid Aluminum XHHW-2 Wire Green`
+- `250 KCMIL Stranded Copper THHN-2 Wire Brown`
+- `500 KCMIL Stranded Aluminum XHHW-2 Wire Black-w/White-Stripe`
 
 ## Units of Measure - Linear Feet
 

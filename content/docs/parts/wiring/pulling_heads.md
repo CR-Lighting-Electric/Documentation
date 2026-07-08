@@ -24,7 +24,7 @@ Constructed from aluminum, stainless steel, or engineered composites, pulling he
 
 ## Naming Convention
 
-`SIZE` `(TYPE)` `(HEAD)` `Pulling Head`
+`SIZE` `(TYPE)` `(HEAD)` `Pulling-Head`
 
 | Descriptor | Explanation                                                                                                                                                                             |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,8 +34,10 @@ Constructed from aluminum, stainless steel, or engineered composites, pulling he
 
 ### Example Names
 
-- 500 KCMIL Pulling Head
-- 12 AWG Compression-Type Pulling Head
-- 4/0 AWG Crimp-Type Pulling Head
+- 500 KCMIL Pulling-Head
+- 12 AWG Crimp-Type Pulling-Head
+- 4/0 AWG Compression-Type Swivel-Head Pulling-Head
 
+## Units of Measure - Units
 
+Pulling heads are usually purchased in units. However, they are sometimes included in the purchase sale of large wire orders depending on vendor.

@@ -21,7 +21,7 @@ The type SOOW cable is a heavy-duty, multi-conductor portable power cord designe
 
 ## Naming Convention
 
-`SIZE/CONDUCTORS` `TYPE` `(STRANDING)` `(MATERIAL)` `(VOLTAGE)` `Portable Cord` `COLOR`
+`SIZE/CONDUCTORS` `TYPE` `(STRANDING)` `(MATERIAL)` `(VOLTAGE)` `Cord` `COLOR`
 
 | Descriptor               | Explanation                                                                                                                                                                                                                                            |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -33,11 +33,11 @@ The type SOOW cable is a heavy-duty, multi-conductor portable power cord designe
 
 ### Example Cord Names
 
-- `12/2 SOOW Portable Cord Black`
-- `14/2 SJOOW Portable Cord Red`
-- `10/5 SO Stranded Copper Portable Cord Blue`
-- `8/2 STOW Stranded Aluminum Portable Cord Yellow`
-- `16/5 Type-W Portable Cord Black`
+- `12/2 SOOW Cord Black`
+- `14/2 SJOOW Cord Red`
+- `10/5 SO Stranded Copper Cord Blue`
+- `8/2 STOW Stranded Aluminum Cord Yellow`
+- `16/5 Type-W Cord Black`
 ## Units of Measure - Linear Feet
 
 Cords are measured in the trade size standard of linear feet. Portable cord may also be cut to lengths and wound up in reels for delivery to a job site.

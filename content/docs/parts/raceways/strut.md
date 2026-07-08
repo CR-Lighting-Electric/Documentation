@@ -41,7 +41,7 @@ Stru provides modular, tool-free assembly. Installers can easily mount electrica
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `DEPTH`          | Refers to the standard depth (and therefore measurements) that can be used. Options include (Shallow, Deep). If not present, then the measurements option should be included with a depth and width of the strut.        |
 | `HOLES`          | Refers to the hole type present on the strut, whether there are no holes present (Solid), with holes along the strut (Slotted), or elongated holes (Elongated-Slotted).                                                  |
-| `(MATERIAL)`     | Defines the optional material specification where typical materials include Steel and Aluminum. If left off, assume the strut should be the standard steel material.                                                     |
+| `(MATERIAL)`     | Defines the optional material specification where typical materials include Steel, Aluminum, Stainless-Steel, etc. If left off, assume the strut should be the standard steel material.                                                     |
 | `(FINISH)`       | If specified, a specific finish can be applied such as Pre-Galvanized, HDG, Powder-Coated (COLOR). If left off, assume a plain finish.                                                                                   |
 | `(MEASUREMENTS)` | Defines the measurements of the custom strut if the depth parameter is left off. There should exist two measurements here: the width and depth of the strut in normal measurement form such as 1-1/4"x1-1/2" as example. |
 
@@ -50,7 +50,7 @@ Stru provides modular, tool-free assembly. Installers can easily mount electrica
 
 - `Deep Slotted Strut`
 - `Shallow Elongated-Slotted Aluminum Strut`
-- `Solid Stainless Steel HDG 1/2"x1-1/2" Strut`
+- `Solid Stainless-Steel HDG 1/2"x1-1/2" Strut`
 - `Deep Solid Strut`
 
 ## Units of Measure - Linear Feet

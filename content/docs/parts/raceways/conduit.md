@@ -22,7 +22,7 @@ Rigid PVC conduit is lightweight, corrosion-resistant and cost effective. It co
 
 ### **RMC** (Rigid Metal Conduit)
 
-The most durable and heavy-duty type of metal conduit. It is built of strong galvanized steel or aluminum and offers superior mechanical protection. RMC is ideal for severe and demanding settings particularly those with significant mechanical stress (or) underground exposure.
+The most durable and heavy-duty type of metal conduit. It is built of strong galvanized steel or aluminum and offers superior mechanical protection. RMC is ideal for severe and demanding settings particularly those with significant mechanical stress (or) underground exposure. Rigid comes with a 3/4" NPT thread on both ends.
 
 ### **LSZH** (Low Smoke, Zero Halogen Conduit)
 

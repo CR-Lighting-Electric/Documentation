@@ -7,6 +7,8 @@ next: docs/parts/raceways/elbows
 
 Wireways are enclosed, rectangular raceway systems designed to house and route multiple electrical conductors in commercial and industrial facilities. Unlike conduit or cable trays, wireways feature removable covers that provide quick, tool-assisted access to internal wiring for installation, inspection, troubleshooting, and future modifications. They are commonly specified for control wiring, lighting circuits, data/communication cables, and low-voltage power distribution where frequent access, high conductor counts, or future expandability are required.
 
+![](/images/wireway-example.png)
+
 Standard wireway sections are manufactured in modular lengths (typically 10 feet) and a range of cross-sectional dimensions (e.g., 4"×4", 6"×6", 12"×12", up to 24"×24"), allowing flexible routing around equipment, through ceilings, or along walls. Covers vary by application:
 
 - Screw Covers: General indoor use with standard protection and aesthetics

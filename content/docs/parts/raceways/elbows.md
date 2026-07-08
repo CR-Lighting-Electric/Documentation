@@ -17,7 +17,7 @@ Refer to the Conduit component page for more information on conduit types. Elbow
 
 ## Naming Conventions
 
-`SIZE` `TYPE` `(MATERIAL)` `(SCHEDULE)` `DEGREE` `(RADIUS)` `(END)` `Conduit Elbow`
+`SIZE` `TYPE` `(MATERIAL)` `(SCHEDULE)` `DEGREE` `(RADIUS)` `(END)` `Conduit-Elbow`
 
 | Descriptor   | Explanation                                                                                                                                                                                                                                                                                                                  |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -31,11 +31,11 @@ Refer to the Conduit component page for more information on conduit types. Elbow
 
 ### Example Names
 
-- `3/4" EMT 45-Degree Conduit Elbow`
-- `2" PVC Schedule-40 90-Degree Conduit Elbow`
-- `1-1/2" RMC 90-Degree Conduit Elbow`
-- `3" PVC Schedule-40 45-Degree Bell-End Conduit Elbow`
-- `4" RMC 90-Degree 36-Radius Conduit Elbow`
+- `3/4" EMT 45-Degree Conduit-Elbow`
+- `2" PVC Schedule-40 90-Degree Conduit-Elbow`
+- `1-1/2" RMC 90-Degree Conduit-Elbow`
+- `3" PVC Schedule-40 45-Degree Bell-End Conduit-Elbow`
+- `4" RMC 90-Degree 36-Radius Conduit-Elbow`
 
 ## Units of Measure - Units
 
