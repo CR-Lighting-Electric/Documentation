@@ -1,5 +1,5 @@
 ---
-title: Procedures
+title: Rentals
 description:
 function:
 type: docs
@@ -11,4 +11,4 @@ sidebar:
 open: true
 date: 2026-07-09
 ---
-Welcome to CR Lighting & Electric's Standard Operating Procedures (SOP's)!
+Rentals!
