@@ -11,6 +11,4 @@ sidebar:
 open: true
 date: 2026-07-09
 ---
-# Documentation
-
 Welcome to CR Lighting & Electric documentation!

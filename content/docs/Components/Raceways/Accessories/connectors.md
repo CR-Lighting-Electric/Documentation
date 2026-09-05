@@ -95,5 +95,5 @@ Connectors are small hardware items and are typically ordered and priced by one 
 - Confirm **material and finish** (steel/zinc-plated, die-cast zinc, malleable iron) when requesting pricing, as this affects both cost and lead time.
 
 _Generated Schematic_
-![Raceway Connector Schematic](/images/raceway-connector-schematic.png)
+![Raceway Connector Schematic](/images/connector-schematic.png)
 

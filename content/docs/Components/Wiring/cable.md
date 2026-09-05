@@ -34,6 +34,17 @@ Fire alarm cable is a low-voltage cable used specifically for fire alarm signal 
 -  **FPLP (Fire Alarm Plenum Rated Cable):** plenum-rated power-limited fire alarm cable used in the plenum-rated spaces of the building.
 -  **FPLR (Fire Alarm Riser Rated Cable):** Riser-rated power-limited FA cable meant for riser applications placed vertically throughout the floors of the building. These include shafts of the elevators. FPLR are flame-retardant in a specific way, as they prevent the fire from spreading vertically.
 
+## Dimming Cable
+
+Dimming cable refers to low-voltage control cable used in lighting systems to carry a 0–10V signal. This signal allows for the adjustment of light levels in dimming systems, enabling users to control brightness effectively.According to the 2020 National Electrical Code (NEC), the color coding for 0–10V dimming wire has specific guidelines to enhance safety and reduce miswiring risks. The standard colors for these wires are Purple for positive and Pink for negative.
+
+Dimming wires are commonly used in various settings, including:
+
+- Commercial Buildings: Approximately 15% of commercial building floorspace utilizes multilevel lighting and dimming.
+- Residential Settings: Homeowners use dimming wires to control lighting for different activities, such as reading or entertaining.
+
+Dimming wires play a crucial role in modern lighting systems, particularly with the increasing use of LED technology, making them essential for both energy efficiency and user comfort.
+
 ## Further Resources
 
 - NEC Code Article 330
@@ -49,7 +60,7 @@ SIZE/CONDUCTORS TYPE (STRANDING) (CONDUCTOR MATERIAL) (ARMOR MATERIAL)-(Armor) (
 | Descriptor                 | Explanation                                                                                                                                                                                                                                                                                                    |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `SIZE/CONDUCTORS`          | Refers to the wiring size within the cord, and the number of conductors present. For example, 12/2 cord would mean each wire is 12-AWG with 2 conductors each, and usually one ground.                                                                                                                         |
-| `TYPE`                     | Defines the cable type whether that is MC cable, NM-B, NMC, FPLP, FPLR, MC-FPLP, MC-FPLR etc.                                                                                                                                                                                                                  |
+| `TYPE`                     | Defines the cable type whether that is MC cable, NM-B, NMC, FPLP, FPLR, MC-FPLP, MC-FPLR, Dimming, etc.                                                                                                                                                                                                        |
 | `(STRANDING)`              | Defines the optional characteristic of the stranding type of the conductors themselves whether that is stranded or solid in title form (Stranded, Solid). If left off, assume stranded. If fire alarm cable and left off, assume solid.                                                                        |
 | `(CONDUCTOR MATERIAL)`     | Refers to the material of the conductors themselves such as aluminum or copper in title form (Aluminum, Copper). Optional characteristic where if not present, assume copper.                                                                                                                                  |
 | `(ARMOR MATERIAL)-(Armor)` | Defines the material of the actual metal clad surrounding the conductors inside, where typical armor materials are steel or aluminum. If specified, put in title form with "-Armor" and if left off, assume aluminum as the trade standard if MC. If not MC, typical cabling is surrounded in a PVC sheathing. |
@@ -69,6 +80,7 @@ SIZE/CONDUCTORS TYPE (STRANDING) (CONDUCTOR MATERIAL) (ARMOR MATERIAL)-(Armor) (
 - `18/2 FPLR Cable`
 - `14/4 MC-FPLP Stranded Copper Steel-Armor Shielded Cable`
 - `8/2 NM-B Solid Aluminum Cable`
+- `12/2 Dimming Cable`
 
 ## Units of Measure - Linear Feet
 
