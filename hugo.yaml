@@ -1,5 +1,7 @@
 # Hugo configuration file
-title: My Site
+title: 
+locale: en-us
+baseURL: http://localhost:1313/
 
 # import hextra as module
 module:
@@ -31,26 +33,34 @@ menu:
       weight: 4
       params:
         type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
-      params:
-        icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
+    # - name: GitHub
+    #   weight: 5
+    #   url: "https://github.com/imfing/hextra-starter-template"
+    #   params:
+    #     icon: github
+    # - name: Twitter
+    #   weight: 6
+    #   url: "https://twitter.com/"
+    #   params:
+    #     icon: x-twitter
 
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      src: "images/logo.png"
+      alt: "CR Lighting & Electric Logo"
+      width: 150
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
 
-  editURL:
-    enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+  theme:
+    default: system
+    displayToggle: true
+
+  # editURL:
+  #   enable: false
+  #   base: "https://github.com/imfing/hextra-starter-template/edit/main/content"

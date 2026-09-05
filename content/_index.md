@@ -1,9 +1,14 @@
 ---
-title: My Site
+title: Resources & Documentation
 toc: false
 ---
 
-This is the landing page.
+### Welcome to the home page.
+
+This site was built to locally house information, documentation, and standard operating procedures related to CR Lighting & Electric processes.
+
+> [!NOTE]
+> Useful information!
 
 ## Explore
 

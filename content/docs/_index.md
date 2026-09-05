@@ -1,18 +1,14 @@
 ---
 title: Documentation
+description: Documentation welcome page.
+function:
+type: docs
+obstype: index
+related:
 next: first-page
+prev:
+sidebar:
+open: true
+date: 2026-07-09
 ---
-
-This is a demo of the theme's documentation layout.
-
-## Hello, World!
-
-```go {filename="main.go"}
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
+Welcome to CR Lighting & Electric documentation!
