@@ -9,7 +9,7 @@ next:
 prev:
 sidebar:
 open: true
-date: 2026-07-09
+date: 2026-09-05
 ---
 
 ![](/images/logo-pickup-truck.png)
@@ -20,7 +20,7 @@ _Welcome to the Vehicle Database documentation!_
 - **What?** The database includes related data on all vehicles, trailers, equipment, and any other asset with wheels worth accounting for.
 - **When?** The database requires an estimated weekly maintenance interval basis, or whenever any relevant data becomes available for recording. Reviewing the data or providing reports on the data is available at any time.
 - **Where?** The workbook itself is currently saved and stored on the workbook owner's One Drive account and shared with appropriate team members.
-- **Why?** Recording and maintaining all available data for an organization's vehicle fleet allows the organization to make more informed decisions about its fleet and drivers. Identifying areas where costs can be trimmed, investments worth making, trends over time, are just a few of the numerous benefits of this exercise.
+- **Why?** Recording and maintaining all available vehicle data allows an organization to make more informed decisions about its fleet and drivers. Identifying areas where costs can be trimmed, investments worth or not making, trends over time, are just a few of the numerous benefits of the exercise.
 
 ## Overview
 
@@ -46,7 +46,13 @@ To avoid stepping on each other's toes and to ensure that the data isn't duplica
 
 The legend provides the viewer with a section for understanding what colors and formats represent across the workbook. Tables are all color coded to their areas, so anywhere that color is used within the workbook, it relates to that table/area.
 
-#### Sheets
+### Data Retention
+
+The workbook was designed to continuously store all vehicle data over an extending period of time. This means that records _should not be deleted_ unless the workbook owner is in agreement that a specific row or area of data can be.
+
+All vehicles and drivers have a `Status` column where editors can immediately change wether the table row is active or not, sold, or whatever the correct value may be. Deleting a row simply because we no longer user or maintain that vehicle or driver any more is lost data to the overall picture.
+
+### Sheets
 
 Here's a rundown of all the available sheets and what their purposes are.
 
@@ -75,7 +81,6 @@ Each sheet utilizes a full table search box to quickly pull up any text that may
 ### Data Sources
 
 1. **File Documentation:** sources that are physical paper, invoiced, or exist as a digital document; the information and data on these files can be manually or in some cases, digitally extracted and inserted into the database. These include the following within the database:
-
 	- Receipts
 	- Invoices
 	- Registration
@@ -84,29 +89,23 @@ Each sheet utilizes a full table search box to quickly pull up any text that may
 	- Inspections
 	- Recalls
 	- Accidents
-
 2. **Reporting Exports:** sources that are exported from another resource that contain a large volume of data. The information and data on these exported files can be easily integrated or copied into the database. These include the following within the database:
-
 	- Maverik Fleet Reports
 	- Maintenance
 	- Repairs
-
 3. **Employee Knowledge:** sources of information that are understood and known by the maintainers about vehicles within the database. This includes the following:
-
 	- Notes
 	- Pictures
 	- Characteristics
 
-### Other Notes
-
-- _Mileage Numbers_ - Many of the drivers do not record accurate odometer readings when it comes to using Maverik cards. The data from Maverik Fleet has been trimmed and cleaned for obvious outliers, but the data isn't 100% reliable due to this fact.
-- _Data Age_ - This one key item in the `Configuration` table affects data across the entire workbook. All data will be factored from today's date back to the date stored in `Data Age`. 
+>[!INFORMATION]
+>_Mileage Numbers_ - Drivers sometimes do not record accurate odometer readings. The data from Maverik Fleet has been trimmed and cleaned for obvious outliers, but the data isn't 100% reliable due to this fact.
 
 ## Tables
 
 Other than the overview page, each sheet within the workbook will have an Excel table that captures the data related to the sheet. Tables in Excel provide quick lookups across columns, built-in statistical analysis options, and come with a set of operations out of the box that make them extremely useful for vehicle data.
 
-Each sheet's table is named, which means you can call its name when creating functions or references without having to remember cell addresses. Each table is named exactly the sheet name. This also makes existing functions and references more human-readable. Refer to the [Microsoft Overview of Tables](https://support.microsoft.com/en-us/excel/overview-of-excel-tables) to get a better introduction or understanding.
+Each sheet's table is named, which means you can call its name when creating functions or references without having to remember cell addresses. Each table is named exactly the sheet name. This also makes existing functions and references more human-readable. Refer to the [Microsoft Overview of Tables](https://support.microsoft.com/en-us/excel/overview-of-excel-tables) to get a better understanding.
 
 ### Adding Rows to Tables
 
@@ -150,6 +149,29 @@ Tables can utilize a dropdown button that automatically pulls up a filter menu f
 Filtering a table does not affect or change any of the data inside of it, Excel is just sorting it based on the criteria entered in the filter menu. Users can always `CTRL + z` to undo a filter they accidentally applied. Feel free to use filters across all database tables.
 
 ![Excel Table Filter](/images/excel-table-filter.gif)
+
+### Column Information
+
+Almost every column of every table are self-explanatory and should be immediately obvious what they mean or do. However, there are a few columns where the data source or purpose may not be clear. The following table aims to explain those columns and what they do.
+
+| Table(s)                                             | Column Name          | Purpose                                                                                      |
+| ---------------------------------------------------- | -------------------- | -------------------------------------------------------------------------------------------- |
+| `Vehicles`                                           | `Type`               | Designate a specific type of vehicle, more specific than class                               |
+| `Vehicles`                                           | `Class`              | Broad class of the vehicle, i.e. Car, Truck, Trailer, Equipment.                             |
+| `Vehicles`                                           | `CC`                 | Engine size, in Cubic Centimeters (CC).                                                      |
+| `Vehicles`                                           | `Maverik`            | Vehicle-specific associated Maverik pin or number.                                           |
+| `Vehicles`                                           | `Registration URL`   | The actual web address of the registration file.                                             |
+| `Vehicles`                                           | `IMEI`               | GPS enabled vehicle tracking number.                                                         |
+| `Vehicles`                                           | `Delimited`          | Helper column for creating key tag labels.                                                   |
+| `Drivers`                                            | `Maverik Standalone` | If the driver has their own Maverik card, separate from any assigned vehicle.                |
+| `Maintenance`, `Recalls`                             | `Highlight`          | Highlight the row in the Vehicles table where applicable, purely for visualization purposes. |
+| `Maintenance`, `Inspections`, `Recalls`, `Accidents` | `Follow-Up`          | Checkbox meaning the assigned viewer or user should follow up on this item.                  |
+| `Repairs`                                            | `Case ID`            | The case ID of an accident if this repair is related to that accident.                       |
+| `Inspections`                                        | `Inspector`          | Name of the individual who inspected.                                                        |
+| `Recalls`                                            | `Recall ID`          | Any ID number associated with the recall.                                                    |
+| `Recalls`                                            | `Reconciled`         | Checkbox for understanding if the recall has been handled for associated vehicles.           |
+| `Accidents`                                          | `Case URL`           | The web address of the police case docs for the accident if stored.                          |
+| `Accidents`                                          | `Insurance URL`      | The web address for the insurance claim docs for the accident if stored.                     |
 
 ## Data Analysis Date Window
 

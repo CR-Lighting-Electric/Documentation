@@ -8,7 +8,7 @@ related:
 next:
 prev:
 sidebar:
-open: true
+    open: true
 date: 2026-07-10
 ---
 ## Overview
