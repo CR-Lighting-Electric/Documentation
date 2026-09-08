@@ -24,7 +24,7 @@ _Welcome to the Vehicle Database documentation!_
 
 ## Overview
 
-The workbook aims to be as simple as possible with organizing and reporting on the data.  All data is stored in Excel Tables, which creates structure, automatic table calculation, and more readable function definitions on cells. Each worksheet divides the data and contains its own table and table search function at the bottom, further outlined in the [Tables](#Tables) section.
+The workbook aims to be as simple as possible with organizing and reporting on the data.  All data is stored in Excel Tables, which creates structure, automatic table calculation, and more readable function definitions on cells. Each worksheet divides the data and contains its own table and table search function at the bottom, further outlined in the [Tables](#tables) section.
 
 The `Overview` page will most likely have most of the information you need. Take a look at the _Directory_  for a list of available filters and views. Otherwise, you can sort and review whatever data you need in the specific sheet or table you require.
 
@@ -71,8 +71,9 @@ Here's a rundown of all the available sheets and what their purposes are.
 | `Locations`     | Store a list of currently available job site and other locations for vehicles. |
 | `Configuration` | Provide a configuration table with values for filters, views, and data.        |
 | `Dropdowns`     | Provide a table for data validation purposes across all tables and sheets.     |
+| `Checklists`    | Provide a table for steps on common procedures related to vehicles.            |
 
-Each sheet utilizes a full table search box to quickly pull up any text that may exist in any row. The purpose of this is to provide viewers an extremely quick and easy way to check the review or check the existence of data. 
+Each sheet utilizes a full table search box to quickly pull up any text that may exist in any row. The purpose of this is to provide viewers an extremely quick and easy way to check the review or check the existence of data.
 
 {{< callout >}}
   Replace any text in the table search text box with a tick mark (\`) to clear the filter.
@@ -175,10 +176,10 @@ Almost every column of every table are self-explanatory and should be immediatel
 
 ## Data Analysis Date Window
 
-On the `Overview` page, every filtered table view with a header that includes an asterisk (\*), calculates data from today's date, back through the date that is configured in the `Configuration` table under the `Data Age` value. If users wish to see data through a specific date window, modify this value.
+On the `Overview` page, every filtered table view with a header that includes an asterisk (\*), calculates data from a date range. Those date values come from the `Start Date` and `End Date` values configured in the `Configuration` table. If users wish to see data through a specific date window, modify these values.
 
 {{< callout type="info" >}}
-  Modify the `Data Age` value to modify the data window across the workbook!
+  Modify the `Start Date` and `End Date` values to modify the data window across the workbook!
 {{< /callout >}}
 
 ## Excel Filter/Array Spills
