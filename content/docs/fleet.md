@@ -1,5 +1,5 @@
 ---
-title: Vehicle Database
+title: Fleet Database
 description: Main page for the Vehicle Database.
 function:
 type: docs
