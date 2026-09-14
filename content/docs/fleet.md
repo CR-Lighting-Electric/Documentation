@@ -50,40 +50,6 @@ The legend provides the viewer with a section for understanding what colors and 
 
 This section provides the user and viewer with applicable contact information or links to external individuals or business accounts with any of our business partners. This section should serve as a central location for knowing where to go for further information about a data source.
 
-### Data Retention
-
-The workbook was designed to continuously store all vehicle data over an extending period of time. This means that records _should not be deleted_ unless the workbook owner is in agreement that a specific row or area of data can be.
-
-All vehicles and drivers have a `Status` column where editors can immediately change wether the table row is active or not, sold, or whatever the correct value may be. Deleting a row simply because we no longer user or maintain that vehicle or driver any more is lost data to the overall picture.
-
-### Sheets
-
-Here's a rundown of all the available sheets and what their purposes are.
-
-| Sheet           | Purpose                                                                        |
-| --------------- | ------------------------------------------------------------------------------ |
-| `Overview`      | Provide a broad look at quick views of each table, analysis, and instruction.  |
-| `Vehicles`      | Store all vehicle instances, providing aggregate data from other tables.       |
-| `Drivers`       | Store all drivers and users, providing aggregate data from other tables.       |
-| `Registration`  | Provide a continuous log of all registration occurrences with current links.   |
-| `Maintenance`   | Provide a continuous log of all maintenances occurrences on all vehicles.      |
-| `Repairs`       | Provide a continuous log of all repair occurrences on all vehicles.            |
-| `Inspections`   | Provide a continuous log of all inspection occurrences on all vehicles.        |
-| `Recalls`       | Provide a continuous log of all recall notices issued on all vehicles.         |
-| `Accidents`     | Provide a continuous log of all accidents on all vehicles and related drivers. |
-| `Maverik`       | Store the Maverik Fleet Management transaction reporting data.                 |
-| `Locations`     | Store a list of currently available job site and other locations for vehicles. |
-| `Configuration` | Provide a configuration table with values for filters, views, and data.        |
-| `Dropdowns`     | Provide a table for data validation purposes across all tables and sheets.     |
-| `Checklists`    | Provide a table for steps on common procedures related to vehicles.            |
-| `Playground`    | Blank sheet for copying/pasting, experiments, miscellaneous calculation.       |
-
-Each sheet utilizes a full table search box to quickly pull up any text that may exist in any row. The purpose of this is to provide viewers an extremely quick and easy way to check the review or check the existence of data.
-
-{{< callout >}}
-  Replace any text in the table search text box with a tick mark (\`) to clear the filter.
-{{< /callout >}}
-
 ### Data Sources
 
 1. **File Documentation:** sources that are physical paper, invoiced, or exist as a digital document; the information and data on these files can be manually or in some cases, digitally extracted and inserted into the database. These include the following within the database:
@@ -107,13 +73,109 @@ Each sheet utilizes a full table search box to quickly pull up any text that may
 >[!INFORMATION]
 >_Mileage Numbers_ - Drivers sometimes do not record accurate odometer readings. The data from Maverik Fleet has been trimmed and cleaned for obvious outliers, but the data isn't 100% reliable due to this fact.
 
-## Tables
+### Sheets
+
+Here's a rundown of all the available sheets and what their purposes are.
+
+| Sheet            | Purpose                                                                        |
+| ---------------- | ------------------------------------------------------------------------------ |
+| `Overview`       | Provide a broad look at quick views of each table, analysis, and instruction.  |
+| `Vehicles`       | Store all vehicle instances, providing aggregate data from other tables.       |
+| `Vehicles-Print` | Sheet for providing a simplified, printable view of the Vehicles data.         |
+| `Drivers`        | Store all drivers and users, providing aggregate data from other tables.       |
+| `Drivers-Print`  | Sheet for providing a simplified, printable view of the Drivers data.          |
+| `Registration`   | Provide a continuous log of all registration occurrences with current links.   |
+| `Maintenance`    | Provide a continuous log of all maintenances occurrences on all vehicles.      |
+| `Repairs`        | Provide a continuous log of all repair occurrences on all vehicles.            |
+| `Inspections`    | Provide a continuous log of all inspection occurrences on all vehicles.        |
+| `Recalls`        | Provide a continuous log of all recall notices issued on all vehicles.         |
+| `Accidents`      | Provide a continuous log of all accidents on all vehicles and related drivers. |
+| `Maverik`        | Store the Maverik Fleet Management transaction reporting data.                 |
+| `Locations`      | Store a list of currently available job site and other locations for vehicles. |
+| `Configuration`  | Provide a configuration table with values for filters, views, and data.        |
+| `Dropdowns`      | Provide a table for data validation purposes across all tables and sheets.     |
+| `Checklists`     | Provide a table for steps on common procedures related to vehicles.            |
+| `Playground`     | Blank sheet for copying/pasting, experiments, miscellaneous calculation.       |
+
+Each sheet utilizes a full table search box to quickly pull up any text that may exist in any row. The purpose of this is to provide viewers an extremely quick and easy way to check the review or check the existence of data.
+
+{{< callout >}}
+  Use a table's search box for quick text lookup! Replace any text in the text box with a tick mark (\`) to clear the filter.
+{{< /callout >}}
+
+### Column Information
+
+Almost every column of every table are self-explanatory and should be immediately obvious what they mean or do. However, there are a few columns where the data source or purpose may not be clear. The following table aims to explain those columns and what they do.
+
+| Table(s)                                             | Column Name          | Purpose                                                                                      |
+| ---------------------------------------------------- | -------------------- | -------------------------------------------------------------------------------------------- |
+| `Vehicles`                                           | `Type`               | Designate a specific type of vehicle, more specific than class, such as "Cargo Van."         |
+| `Vehicles`                                           | `Class`              | Broad class of the vehicle, i.e. Car, Truck, Trailer, Equipment.                             |
+| `Vehicles`                                           | `CC`                 | Engine size, in Cubic Centimeters (CC).                                                      |
+| `Vehicles`                                           | `Warranty`           | Designate by checkbox if the vehicle currently has a warranty or not.                        |
+| `Vehicles`                                           | `Maverik`            | Vehicle-specific associated Maverik pin or number.                                           |
+| `Vehicles`                                           | `Registration URL`   | The actual web address of the registration file.                                             |
+| `Vehicles`                                           | `IMEI`               | GPS enabled vehicle tracking number.                                                         |
+| `Vehicles`                                           | `Delimited`          | Helper column for creating key tag labels.                                                   |
+| `Drivers`                                            | `Maverik Standalone` | If the driver has their own Maverik card, separate from any assigned vehicle.                |
+| `Maintenance`, `Recalls`                             | `Highlight`          | Highlight the row in the Vehicles table where applicable, purely for visualization purposes. |
+| `Maintenance`, `Inspections`, `Recalls`, `Accidents` | `Follow-Up`          | Checkbox meaning the assigned viewer or user should follow up on this item.                  |
+| `Repairs`                                            | `Case ID`            | The case ID of an accident if this repair is related to that accident.                       |
+| `Inspections`                                        | `Inspector`          | Name of the individual who inspected.                                                        |
+| `Recalls`                                            | `Recall ID`          | Any ID number associated with the recall.                                                    |
+| `Recalls`                                            | `Reconciled`         | Checkbox for understanding if the recall has been handled for associated vehicles.           |
+| `Accidents`                                          | `Case URL`           | The web address of the police case docs for the accident if stored.                          |
+| `Accidents`                                          | `Insurance URL`      | The web address for the insurance claim docs for the accident if stored.                     |
+
+## Using the Workbook
+
+If your responsibility includes updating any number of the tables, then knowing how to update key configuration and aspects of the workbook will be important.
+
+### Updating Cell Dropdown & Data Validation
+
+Some columns present across the tables include data validation on values, meaning the values present must conform to some data requirement that is setup in the "Data Validation" setting. All dropdown cells have data validation lists that come from one key table: the `Dropdowns` table.
+
+If users need an extra list value to utilize within the data column, then that value should be added to the appropriate column within the `Dropdowns` table. Here's an outline of `Dropdowns` and where each column belongs in the workbook so far.
+
+| Dropdowns Column    | Workbook Use                                                     |
+| ------------------- | ---------------------------------------------------------------- |
+| `Status`            | Validates `Vehicles[Status]`.                                    |
+| `Types`             | Validates `Vehicles[Types]`.                                     |
+| `Classes`           | Validates `Vehicles[Class]`.                                     |
+| `Purposes`          | Validates `Vehicles[Purposes]`.                                  |
+| `Plate Types`       | Validates `Vehicles[Plate Type]`.                                |
+| `Fuel Types`        | Validates `Vehicles[Fuel Type]`.                                 |
+| `Department`        | Validates `Vehicles[Department]`.                                |
+| `Maintenance`       | Validates `Maintenance[Item]`.                                   |
+| `Repairs`           | Validates `Repairs[Item]`.                                       |
+| `Inspection Status` | Validates `Inspections[Status]`.                                 |
+| `Individuals`       | Validates the Roles & Responsibilities section assignee/backups. |
+
+### Data Analysis Date Window
+
+On the `Overview` page, every filtered table view or statistic with a header that includes an asterisk (\*), calculates data from a date range. Those date values come from the `Start Date` and `End Date` values configured in the `Configuration` table. If users wish to see data through a specific date window, modify these values.
+
+{{< callout type="info" >}}
+  Modify the `Start Date` and `End Date` values to modify the data window across the workbook!
+{{< /callout >}}
+
+### Data Retention
+
+The workbook was designed to continuously store all vehicle data over an ever extending period of time. This means that records _should not be deleted_ unless the workbook owner is in agreement that a specific row or area of data can be.
+
+All vehicles and drivers have a `Status` column where editors can immediately change wether the table row is active or not, sold, or whatever the correct value may be. Deleting a row simply because we no longer user or maintain that vehicle or driver any more is lost data to the overall picture.
+
+## Excel Specifics 
+
+Should users require extra reference on how to do common Excel manipulation working with tables or how to overcome common errors within the workbook, this section outlines some basics on what might show up in the workbook.
+
+### Tables
 
 Other than the overview page, each sheet within the workbook will have an Excel table that captures the data related to the sheet. Tables in Excel provide quick lookups across columns, built-in statistical analysis options, and come with a set of operations out of the box that make them extremely useful for vehicle data.
 
 Each sheet's table is named, which means you can call its name when creating functions or references without having to remember cell addresses. Each table is named exactly the sheet name. This also makes existing functions and references more human-readable. Refer to the [Microsoft Overview of Tables](https://support.microsoft.com/en-us/excel/overview-of-excel-tables) to get a better understanding.
 
-### Adding Rows to Tables
+#### Adding Rows to Tables
 
 To add additional rows to an existing table, you have a few options:
 
@@ -126,7 +188,7 @@ If there is data directly below or if there isn't enough space to expand the tab
 
 Once an available row has opened up, fill out all the possible information available pertaining to the table, under the uncolored columns. Remember, the color coded columns contain data that is calculated or referenced, do not change data in these columns! Maintainers are always welcome to come back to a table or row and continue entering necessary data.
 
-### Deleting Rows to Tables
+#### Deleting Rows to Tables
 
 To delete rows to an existing table, you have a few options:
 
@@ -139,7 +201,7 @@ To delete rows to an existing table, you have a few options:
 
 ![Excel Table Delete](/images/excel-table-delete.gif)
 
-### Updating Data in Tables
+#### Updating Data in Tables
 
 Data in tables simply exist. This means you can edit any value at any time in an Excel table. Keep in mind for the Vehicle Database, any column data that is colored is data that is calculated, referenced, or includes a function.
 
@@ -156,38 +218,8 @@ Filtering a table does not affect or change any of the data inside of it, Excel 
 
 ![Excel Table Filter](/images/excel-table-filter.gif)
 
-### Column Information
 
-Almost every column of every table are self-explanatory and should be immediately obvious what they mean or do. However, there are a few columns where the data source or purpose may not be clear. The following table aims to explain those columns and what they do.
-
-| Table(s)                                             | Column Name          | Purpose                                                                                      |
-| ---------------------------------------------------- | -------------------- | -------------------------------------------------------------------------------------------- |
-| `Vehicles`                                           | `Type`               | Designate a specific type of vehicle, more specific than class, such as "Cargo Van."         |
-| `Vehicles`                                           | `Class`              | Broad class of the vehicle, i.e. Car, Truck, Trailer, Equipment.                             |
-| `Vehicles`                                           | `CC`                 | Engine size, in Cubic Centimeters (CC).                                                      |
-| `Vehicles`                                           | `Maverik`            | Vehicle-specific associated Maverik pin or number.                                           |
-| `Vehicles`                                           | `Registration URL`   | The actual web address of the registration file.                                             |
-| `Vehicles`                                           | `IMEI`               | GPS enabled vehicle tracking number.                                                         |
-| `Vehicles`                                           | `Delimited`          | Helper column for creating key tag labels.                                                   |
-| `Drivers`                                            | `Maverik Standalone` | If the driver has their own Maverik card, separate from any assigned vehicle.                |
-| `Maintenance`, `Recalls`                             | `Highlight`          | Highlight the row in the Vehicles table where applicable, purely for visualization purposes. |
-| `Maintenance`, `Inspections`, `Recalls`, `Accidents` | `Follow-Up`          | Checkbox meaning the assigned viewer or user should follow up on this item.                  |
-| `Repairs`                                            | `Case ID`            | The case ID of an accident if this repair is related to that accident.                       |
-| `Inspections`                                        | `Inspector`          | Name of the individual who inspected.                                                        |
-| `Recalls`                                            | `Recall ID`          | Any ID number associated with the recall.                                                    |
-| `Recalls`                                            | `Reconciled`         | Checkbox for understanding if the recall has been handled for associated vehicles.           |
-| `Accidents`                                          | `Case URL`           | The web address of the police case docs for the accident if stored.                          |
-| `Accidents`                                          | `Insurance URL`      | The web address for the insurance claim docs for the accident if stored.                     |
-
-## Data Analysis Date Window
-
-On the `Overview` page, every filtered table view with a header that includes an asterisk (\*), calculates data from a date range. Those date values come from the `Start Date` and `End Date` values configured in the `Configuration` table. If users wish to see data through a specific date window, modify these values.
-
-{{< callout type="info" >}}
-  Modify the `Start Date` and `End Date` values to modify the data window across the workbook!
-{{< /callout >}}
-
-## Excel Filter/Array Spills
+### Excel Filter/Array Spills
 
 On the `Overview` page, there are numerous pre-built filtered views that incorporate data from all the database tables. When the database grows, more rows can be found in each one of those filtered views, and may run into the data that is below it. Excel will show this as a `#SPILL!` error. 
 
