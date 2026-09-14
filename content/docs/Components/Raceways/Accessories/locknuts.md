@@ -15,6 +15,8 @@ date: 2026-08-31
 
 A locknut threads onto a length of threaded conduit or a threaded connector/nipple and is tightened against the inside (or outside) face of a box, cabinet, or enclosure wall, mechanically securing the raceway in place at the termination point. Locknuts are the primary means of securing threaded raceway to sheet-metal enclosures, and — depending on style — can also serve a bonding function distinct from simple mechanical securement.
 
+![](/images/locknut-example.png)
+
 Locknuts are selected based on:
 
 1. **Function:**
@@ -47,27 +49,23 @@ Locknuts are selected based on:
 When identifying locknuts for vendor ordering, use the following naming structure, listing attributes in this order:
 
 ```
-SIZE FUNCTION MATERIAL Locknut
+SIZE (FUNCTION) MATERIAL Conduit-Locknut
 ```
-
-### Example Names
-
-- `3/4in Standard Steel Locknut`
-- `1in Bonding Steel Locknut`
-- `2in Sealing Steel Locknut`
-- `3in Standard Malleable-Iron Locknut`
-- `1/2in Standard Aluminum Locknut`
-- `3/4in Sealing Stainless-Steel Locknut`
 
 ### Convention Notes
 
-|Descriptor|Explanation|
-|---|---|
-|SIZE|The nominal trade size matching the conduit/thread it will secure (e.g., 1/2in, 3/4in, 1in, 2in, 3in). Leads the name, since fit is the first compatibility check.|
-|FUNCTION|Standard, Bonding, Sealing, or Fixture. Standard secures mechanically only; Bonding adds a tooth/screw to bite through paint or coatings at concentric/eccentric knockouts; Sealing adds an integral gasket for wet/washdown locations; Fixture is a smaller size for luminaire stems rather than conduit.|
-|MATERIAL|Steel, Malleable-Iron, Aluminum, or Stainless-Steel. Confirm compatibility with the enclosure and conduit material to avoid unwanted dissimilar-metal contact.|
-|Catalog number|Vendor catalogs (e.g., Thomas & Betts, Bridgeport, Sigma, Calbrite, Cooper Crouse-Hinds) also carry their own part numbers and finish suffix codes; provide both the plain-language name and the catalog number when known.|
-|UL Listing|If required by spec, append it to the name, e.g., "...UL Listed to UL 514B."|
+| Descriptor   | Explanation                                                                                                                                                                                                                                                                                                |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `SIZE`       | The nominal trade size matching the conduit/thread it will secure (e.g., 1/2in, 3/4in, 1in, 2in, 3in). Leads the name, since fit is the first compatibility check.                                                                                                                                         |
+| `(FUNCTION)` | Standard, Bonding, Sealing, or Fixture. Standard secures mechanically only; Bonding adds a tooth/screw to bite through paint or coatings at concentric/eccentric knockouts; Sealing adds an integral gasket for wet/washdown locations; Fixture is a smaller size for luminaire stems rather than conduit. |
+| `MATERIAL`   | Steel, Malleable-Iron, Aluminum, or Stainless-Steel. Confirm compatibility with the enclosure and conduit material to avoid unwanted dissimilar-metal contact.                                                                                                                                             |
+
+### Example Names
+
+- `3/4" Steel Conduit-Locknut`
+- `1/2" Bonding Stainless-Steel Conduit-Locknut`
+- `1" Sealing-PVC-Gasket Conduit-Locknut`
+- `2" Sealing Zinc-Plated-Steel Conduit-Locknut`
 
 ## Typical Units of Measure
 
@@ -84,3 +82,6 @@ SIZE FUNCTION MATERIAL Locknut
 - For **outdoor, wet, or washdown-rated enclosures** (NEMA 3R/4/6/13), confirm a sealing locknut is specified rather than a standard locknut, and torque to the manufacturer's recommendation during installation to avoid gasket distortion.
 - Order **two locknuts per termination** when securing a nipple or any raceway lacking an integral hub or shoulder (double-locknut construction), since a single locknut alone doesn't provide adequate mechanical security in that configuration.
 - For **corrosive, coastal, or dissimilar-metal environments**, confirm stainless steel or aluminum construction rather than a standard zinc-plated finish before finalizing an order.
+
+_Generated Schematic_
+![](/images/locknut-schematic.png)

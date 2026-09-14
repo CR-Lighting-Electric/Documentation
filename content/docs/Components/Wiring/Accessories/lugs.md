@@ -57,23 +57,25 @@ Wire lugs are selected based on:
 When identifying wire lugs for vendor ordering, use the following naming structure, listing attributes in this order:
 
 ```
-SIZE HOLE-SIZE CONDUCTORS (BARREL) (MATERIAL) HOLES Lug
+SIZE HOLE-SIZE CONDUCTOR-NUMBER (CONDUCTOR-MATERIAL) (BARREL) (MATERIAL) HOLES Lug
 ```
 
-| Descriptor   | Explanation                                                                                                      |
-| ------------ | ---------------------------------------------------------------------------------------------------------------- |
-| `SIZE`       | Wiring size for the lug connection in AWG or KCMIL (3-AWG, 250-KCMIL, etc.)                                      |
-| `CONDUCTORS` | The conductor material(s) the lug is rated for; Copper, Aluminum, etc.                                           |
-| `(BARREL)`   | Optional barrel length for lug, can be specified as Short-Barrel or Long-Barrel. Assume Short-Barrel as default. |
-| `TYPE`       | Type of the lug, common configurations include Compression or Mechanical.                                        |
-| `STUD-SIZE`  | The size of the hold for the bolt/hardware to secure the lug with, 1/2"-Stud i.e.                                |
-| `(MATERIAL)` | Optional material specifier for the lug itself, assume Aluminum as default.                                      |
+| Descriptor             | Explanation                                                                                                      |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `SIZE`                 | Wiring size for the lug connection in AWG or KCMIL (3-AWG, 250-KCMIL, etc.)                                      |
+| `CONDUCTOR-NUMBER`     | The count of conductors the lug can accommodate, i.e. "2-Conductor"                                              |
+| `(CONDUCTOR-MATERIAL)` | Optional specific conductor material(s) the lug is rated for; Copper-Conductor, Aluminum-Conductor, etc.         |
+| `(BARREL)`             | Optional barrel length for lug, can be specified as Short-Barrel or Long-Barrel. Assume Short-Barrel as default. |
+| `TYPE`                 | Type of the lug, common configurations include Compression or Mechanical.                                        |
+| `STUD-SIZE`            | The size of the hold for the bolt/hardware to secure the lug with, 1/2"-Stud i.e.                                |
+| `(MATERIAL)`           | Optional material specifier for the lug itself, assume Aluminum as default.                                      |
 
 ### Example Names
 
-- `250-KCMIL Copper Long-Barrel Compression 1/2"-Stud Aluminum 2-Hole Lug`
+- `250-KCMIL 1-Conductor Copper Long-Barrel Compression 1/2"-Stud Aluminum 2-Hole Lug`
 - `4-AWG Aluminum Compression 1/8"-Stud 1-Hole Lug`
 - `350-KCMIL Copper-Aluminum Short-Barrel Mechanical 3/4"-Stud Aluminum 1-Hole Lug`
+- `1/0-AWG 2-Conductor Mechanical 2-Hole Lug`
 
 ## Typical Units of Measure
 
