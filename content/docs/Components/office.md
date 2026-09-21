@@ -15,6 +15,8 @@ date: 2026-07-09
 
 Office supplies covers the consumable and general-use materials needed to run an office environment day to day — paper products, writing instruments, filing and organization supplies, fasteners and adhesives, computers, devices, and general desk accessories. The Office category is organized by brand-specific items rather than by an engineering or code specification, so the naming convention on this page emphasizes **physical size first, then brand**, since those are the two details most likely to cause a wrong-item order if left out.
 
+![](/images/office-example.png)
+
 Common subcategories covered under general office supplies include:
 
 1. **Paper products** — copy/printer paper, notepads, and specialty paper, sized to standard formats:

@@ -11,7 +11,7 @@ sidebar:
 open: true
 date: 2026-09-08
 ---
-## Overview
+ ## Overview
 
 A receptacle is the wall- or panel-mounted device a plug connects to, delivering power from a branch circuit to a cord-connected load. Receptacles are standardized by **NEMA configuration** (the pattern of blade slots, which determines voltage, amperage, and plug compatibility) and are further differentiated by protection type, duty grade, and physical style.
 

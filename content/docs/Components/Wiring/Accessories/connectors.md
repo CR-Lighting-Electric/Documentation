@@ -43,9 +43,9 @@ When identifying some sort of connector for vendor ordering, use the following n
 | Descriptor    | Explanation                                                                                                                                                |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `(SIZE)`      | Any optional size related information to the connector such as AWG.                                                                                        |
-| `STYLE`       | Style of the connector; typical styles include Pass-Through, Multimode, Singlemode, Toolless, Standard, Blocker, CAT5E, CAT6, etc.                         |
-| `TYPE`        | Type of the connector which refers to how the connector is fastened. Examples include compression, RJ45, etc.                                              |
-| `CATEGORY`    | Broad category of the connector or wiring type that the connector connects to, for example Ethernet, Fiber, Coaxial, etc.                                  |
+| `STYLE`       | Style of the connector; typical styles include Pass-Through, Multi-Mode, Single-Mode, Toolless, Standard, Blocker, CAT5E, CAT6, Single-Barrel, etc.        |
+| `TYPE`        | Type of the connector which refers to how the connector is fastened. Examples include Compression, RJ45, Snapping, etc.                                    |
+| `CATEGORY`    | Broad category of the connector or wiring type that the connector connects to, for example Ethernet, Fiber, Coaxial, etc, MC.                              |
 | `(MATERIAL)`  | Optional material specifier for plating, surrounding material, etc. for example Gold-Plating. If left off, assume, the default material for the connector. |
 | `(SHIELDING)` | Optional shielding specifier, Shielded or Unshielded. If left off, assume                                                                                  |
 
