@@ -41,28 +41,25 @@ Multi-tap connectors are selected based on:
 When identifying multi-tap connectors for vendor ordering, use the following naming structure, listing attributes in this order:
 
 ```
-PORTS ENTRY METAL RANGE Tap
+SIZE PORTS (ENTRY) (CONDUCTOR-Conductor) (MATERIAL) (INSULATED) Tap
 ```
-
-Where RANGE is a single wire range shared across all ports, or expressed as MAINrange-TAPrange when the main and tap conductors are rated differently.
-
-### Example Names
-
-- `2Port 1Sided AL9CU 14to2AWG Tap`
-- `3Port 2Sided AL9CU 6AWGto3AWG Tap`
-- `4Port 1Sided AL9CU 14to1AWG Tap`
-- `2Port 2Sided AL9CU 250MCMto6AWG Tap`
-- `4Port 1Sided AL9CU 4AWGto2AWG-4AWGto14AWG Tap`
-- `5Port 2Sided AL9CU 750MCMto250MCM-4AWGto250MCM Tap`
 
 ### Convention Notes
 
-- Lead with **PORTS** as the number of conductor entry points (e.g., "2Port," "3Port," "4Port").
-- State **ENTRY** as 1Sided or 2Sided to indicate whether ports enter from the same side or opposite sides of the connector body.
-- State **METAL** as AL9CU for the standard dual-rated aluminum-body construction, or Copper for the less common all-copper-body variant.
-- State **RANGE** as the full wire range in AWG/kcmil; for connectors with distinct main and tap ranges, separate the two with a hyphen (e.g., "500MCMto2AWG-4AWGto14AWG" for a main run of 500 kcmil–2 AWG feeding taps of 4 AWG–14 AWG) — never assume main and tap ranges are the same without confirming on the specific product.
-- Many vendor catalogs (e.g., Ilsco/Nimbus, Burndy/UNITAP, NSI/Polaris, ASI, Panduit) also carry a **manufacturer catalog number**; when ordering, provide both the plain-language description above and the catalog number if known, since port count, range, and entry configuration combinations are extensive and not standardized across manufacturers.
-- If **direct burial or submersible rating** is required, state this explicitly (e.g., "...Direct Burial Rated") since it is not the default for standard multi-tap connectors and is a distinct, separately listed product line.
+| Descriptor    | Explanation                                                                                                       |
+| ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `SIZE`        | Size of the wiring entering the ports (250-MCM, 1/0-AWG, 6-AWG, etc.)                                             |
+| `PORTS`       | Number of ports present on the tap itself (1-Port, 2-Port, 3-Port, etc.)                                          |
+| `(ENTRY)`     | Which sides have wire entry into the tap (1-Sided, 2-Sided), assume 1-Sided as the default for entries.           |
+| `(CONDUCTOR)` | The conductor material of the wire coming in (Aluminum, Copper, etc.), assume Copper-Conductor as the default.    |
+| `(MATERIAL)`  | The actual material of the tap itself; assume Aluminum as the default.                                            |
+| `(INSULATED)` | Whether the tap is insulated or not; assume Insulated as the default. Options include Insulated or Non-Insulated. |
+
+### Example Names
+
+- `10-AWG 2-Port Tap`
+- `2-AWG 3-Port 2-Sided Aluminum-Conductor Tap`
+- `250-KCMIL 2-Port Copper-Conductor Aluminum Non-Insulated Tap`
 
 ## Typical Units of Measure
 

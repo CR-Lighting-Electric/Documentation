@@ -45,13 +45,13 @@ When identifying straps for vendor ordering, use the following naming structure,
 SIZE TYPE STYLE (MATERIAL) (FINISH) Strap
 ```
 
-| Descriptor   | Explanation                                                       |
-| ------------ | ----------------------------------------------------------------- |
-| `SIZE`       | Trade size diameter of the strap in inches (1/2", 2-3/4", etc.)   |
-| `TYPE`       | Conduit type the strap will be attaching to (EMT, RMC, IMC, etc.) |
-| `STYLE`      | Style of strap; typical styles include 1-Hole, 2-Hole, Strut,     |
-| `(MATERIAL)` | Optional material specifier (Steel, Aluminum, Brass, etc).        |
-| `(FINISH)`   | Optional finish specifier, for example, Electro-Galvanized.       |
+| Descriptor   | Explanation                                                                        |
+| ------------ | ---------------------------------------------------------------------------------- |
+| `SIZE`       | Trade size diameter of the strap in inches (1/2", 2-3/4", etc.)                    |
+| `TYPE`       | Conduit type the strap will be attaching to (EMT, RMC, IMC, etc.)                  |
+| `STYLE`      | Style of strap; typical styles include 1-Hole, 2-Hole, Strut, Two-Piece-Strut, etc |
+| `(MATERIAL)` | Optional material specifier (Steel, Aluminum, Brass, etc).                         |
+| `(FINISH)`   | Optional finish specifier, for example, Electro-Galvanized.                        |
 
 ### Example Names
 
