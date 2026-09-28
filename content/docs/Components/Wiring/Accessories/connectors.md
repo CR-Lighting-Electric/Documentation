@@ -47,7 +47,15 @@ When identifying some sort of connector for vendor ordering, use the following n
 | `TYPE`        | Type of the connector which refers to how the connector is fastened. Examples include Compression, RJ45, Snapping, etc.                                    |
 | `CATEGORY`    | Broad category of the connector or wiring type that the connector connects to, for example Ethernet, Fiber, Coaxial, etc, MC.                              |
 | `(MATERIAL)`  | Optional material specifier for plating, surrounding material, etc. for example Gold-Plating. If left off, assume, the default material for the connector. |
-| `(SHIELDING)` | Optional shielding specifier, Shielded or Unshielded. If left off, assume                                                                                  |
+| `(SHIELDING)` | Optional shielding specifier, Shielded or Unshielded. If left off, assume Unshielded.                                                                      |
+
+### Example Names
+
+- `1/2" Double-Barrel Snapping MC Connector`
+- `10-AWG Multi-Mode Compression Fiber Connector`
+- `CAT6 RJ45 Ethernet Shielded Connector`
+- `3/4" Press-Fit NM-Cable Connector` (Southwire RCR75)
+- `1/2" Press-Fit NM-Cable Connector` (Southwire RCR50)
 
 ## Typical Units of Measure
 

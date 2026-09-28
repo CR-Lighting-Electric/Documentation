@@ -11,5 +11,4 @@ sidebar:
 open: true
 date: 2026-07-09
 ---
-Devices Accessories!
-
+Enclosure Accessories!

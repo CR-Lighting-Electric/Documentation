@@ -36,6 +36,15 @@ Connectors also vary by:
 
 Connectors are a code-required part of a raceway installation (NEC Article 342, 348, 350, 356, 358, etc., depending on raceway type) and are UL Listed for the specific raceway and location they are rated for. Using an unlisted or mismatched connector is both a code violation and a common point of installation failure.
 
+## Further Resources
+
+- [NEMA FB 1 – Fittings, Cast Metal Boxes, and Conduit Bodies for Conduit, Electrical Metallic Tubing, and Cable](https://www.nema.org/standards/view/fittings-cast-metal-boxes-and-conduit-bodies-for-conduit-electrical-metallic-tubing-and-cable) — the primary NEMA standard governing dimensions and performance of conduit/EMT fittings, including connectors.
+- [UL 514B – Standard for Conduit, Tubing, and Cable Fittings](https://www.shopulstandards.com/ProductDetail.aspx?UniqueKey=32562) — the UL safety standard most conduit and EMT connectors are listed to.
+- [Eaton Crouse-Hinds – EMT Connectors and Couplings Catalog](https://www.eaton.com/us/en-us/catalog/fittings/connectors-and-couplings---emt.html) — manufacturer reference showing set-screw vs. compression construction, materials, and options.
+- [Southwire EMT Fittings Catalog (PDF)](https://www.southwire.com/medias/1-EMT-Section-Catalog-WEB.pdf) — catalog reference with part numbering and specification sheets.
+- [American Fittings (AMFICO) – EMT & Flex Adapter Fittings](https://amftgs.com/emt-steel-compression-connectors-couplings-fittings-made-in-the-usa/) — detailed breakdown of concrete-tight, rain-tight, and standard duty connector construction and applicable standards (UL 514B, UL 467, Federal Spec A-A-50553, CSA C22.2).
+- National Electrical Code (NEC), NFPA 70 — Articles 342 (IMC), 344 (RMC), 348 (FMC), 350 (LFMC), 352 (PVC), 358 (EMT) — governing installation, listing, and use requirements for each raceway type's fittings.
+
 ## Naming Convention
 
 When identifying connectors for vendor ordering, use the following naming structure, listing attributes in this order:
@@ -53,7 +62,7 @@ SIZE TYPE (MATERIAL) (SCHEDULE) (FINISH) (ANGLE) (INSULATION) CONNECTION Connect
 | `(FINISH)`     | Optional finish specifier which could include Galvanized, Oxides, etc.                                                                                                                                               |
 | `(ANGLE)`      | Optional angle identifier for any bends in the connector; should be in -Degree format, for example a 45 degree angle should appear as 45-Degree. If omitted, assume the angle is 0 degrees, or a straight connector. |
 | `CONNECTION`   | Connection type of the connector; examples include Threaded, Compression, Set-Screw, Screw-Clamp, etc.                                                                                                               |
-| `(INSULATION)` | Optionally identify if the connector is insulated or not with "Insulated".                                                                                                                                           |
+| `(INSULATION)` | Optionally identify if the connector is insulated or not with "Insulated", values could also include "Raintight," or "Concrete-Tight," etc.                                                                          |
 
 ### Example Names
 
@@ -62,21 +71,13 @@ SIZE TYPE (MATERIAL) (SCHEDULE) (FINISH) (ANGLE) (INSULATION) CONNECTION Connect
 - `3" PVC Schedule-80 Threaded Connector`
 - `4" EMT Stainless-Steel 90-Degree Compression Connector`
 - `1-1/4" EMT Screw-Clamp Insulated Connector`
+- `1/2" EMT Compression Raintight Connector`
 
 **Notes on convention:**
 
 - Always lead with **trade size** (nominal), not actual outside diameter — this is how conduit and fittings are ordered industry-wide (e.g., 1/2", 3/4", 1", 1-1/4", 1-1/2", 2", 2-1/2", 3", 3-1/2", 4").
 - Slang is commonly used for a lot of terms in the electrical industry. **Smurf** refers to ENT due to its old common blue color.
 - State the **raceway type using its standard abbreviation** where one exists: EMT (Electrical Metallic Tubing), RMC/GRC (Rigid Metal/Galvanized Rigid Conduit), IMC (Intermediate Metal Conduit), FMC (Flexible Metal Conduit, "Greenfield"), LFMC (Liquidtight Flexible Metal Conduit, "Sealtite"), LFNC (Liquidtight Flexible Nonmetallic Conduit), PVC (Rigid PVC Conduit, with Schedule-40 or Schedule-80 noted), ENT (Electrical Nonmetallic Tubing).
-
-## Further Resources
-
-- [NEMA FB 1 – Fittings, Cast Metal Boxes, and Conduit Bodies for Conduit, Electrical Metallic Tubing, and Cable](https://www.nema.org/standards/view/fittings-cast-metal-boxes-and-conduit-bodies-for-conduit-electrical-metallic-tubing-and-cable) — the primary NEMA standard governing dimensions and performance of conduit/EMT fittings, including connectors.
-- [UL 514B – Standard for Conduit, Tubing, and Cable Fittings](https://www.shopulstandards.com/ProductDetail.aspx?UniqueKey=32562) — the UL safety standard most conduit and EMT connectors are listed to.
-- [Eaton Crouse-Hinds – EMT Connectors and Couplings Catalog](https://www.eaton.com/us/en-us/catalog/fittings/connectors-and-couplings---emt.html) — manufacturer reference showing set-screw vs. compression construction, materials, and options.
-- [Southwire EMT Fittings Catalog (PDF)](https://www.southwire.com/medias/1-EMT-Section-Catalog-WEB.pdf) — catalog reference with part numbering and specification sheets.
-- [American Fittings (AMFICO) – EMT & Flex Adapter Fittings](https://amftgs.com/emt-steel-compression-connectors-couplings-fittings-made-in-the-usa/) — detailed breakdown of concrete-tight, rain-tight, and standard duty connector construction and applicable standards (UL 514B, UL 467, Federal Spec A-A-50553, CSA C22.2).
-- National Electrical Code (NEC), NFPA 70 — Articles 342 (IMC), 344 (RMC), 348 (FMC), 350 (LFMC), 352 (PVC), 358 (EMT) — governing installation, listing, and use requirements for each raceway type's fittings.
 
 ## Typical Units of Measure
 
