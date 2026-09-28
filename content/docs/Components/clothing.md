@@ -55,7 +55,7 @@ SIZE (BRAND) FIT COLOR MATERIAL ITEM
 - `32x32 Carhartt Mens Khaki Cotton-Duck Work-Pant`
 - `Large Nike Womens White Polyester Polo`
 - `10 Timberland Mens Brown Leather Work-Boot`
-- `XL Carhartt Unisex Black Fleece Hoodie
+- `XL Carhartt Unisex Black Fleece Hoodie`
 - `One-Size Carhartt Unisex Gray Acrylic Beanie`
 
 ### Convention Notes

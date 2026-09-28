@@ -15,7 +15,7 @@ date: 2026-09-21
 
 A splice joins two (or more) conductor ends together in-line, permanently, to extend a run or repair a break — distinct from a termination (ending a conductor at a lug or stud, covered on the Wire Lugs page), a twist-on connection (covered on the Wire Nuts page), and a multi-port distribution tap (covered on the Wire Taps page). This page covers the two families of hardware used to make that in-line joint: small-gauge crimp butt splices, and larger-conductor split-bolt and compression splice connectors.
 
-
+![](/images/splice-example.png)
 
 **Butt splices** are the small-gauge, low-voltage workhorse: a metal barrel (with or without an insulating sleeve) that two stripped conductor ends are inserted into from opposite sides and crimped, joining them end-to-end in a straight line. They're sized to a specific AWG range like any crimp terminal, and come in several sleeve styles:
 
@@ -52,12 +52,6 @@ When identifying splices for vendor ordering, use the following naming structure
 SIZE (CONDUCTORS-Conductor) SEALING STYLE Splice
 ```
 
-### Example Names
-
-- `18-AWG Aluminum-Conductor Heat-Shrink Butt Splice`
-- `250-KCMIL Copper-Conductor Vinyl-Insulated Split-Bolt Splice`
-- `16-AWG`
-
 ### Convention Notes
 
 | Descriptor     | Explanation                                                                                                                                                                                                                                                       |
@@ -66,6 +60,12 @@ SIZE (CONDUCTORS-Conductor) SEALING STYLE Splice
 | `(CONDUCTORS)` | Copper (copper-only conductors), Aluminum (aluminum-only), or Aluminum-Copper (specifically listed for joining dissimilar copper and aluminum conductors — never substitute a copper-only connector here). Assume Copper-Conductor as the default.                |
 | `SEALING`      | Non-Insulated (bare, to be covered separately), Vinyl-Insulated (colored sleeve, dry locations), Heat-Shrink (sealed, adhesive-lined), Uninsulated (split bolts, taped after installation), or Direct-Bury (specifically listed for underground/submersible use). |
 | `STYLE`        | Butt (small-gauge crimp barrel), Split-Bolt (bolted wedge connector for larger conductors), or Compression (heavy-duty crimped sleeve for larger conductors).                                                                                                     |
+
+### Example Names
+
+- `18-AWG Aluminum-Conductor Heat-Shrink Butt Splice`
+- `250-KCMIL Copper-Conductor Vinyl-Insulated Split-Bolt Splice`
+- `500-KCMIL Heat-Shrink Compression Splice`
 
 ## Typical Units of Measure
 
@@ -83,3 +83,6 @@ SIZE (CONDUCTORS-Conductor) SEALING STYLE Splice
 - **Split bolts have no integral insulation** — always order (or stock separately) rubber/vinyl splicing tape or a cold-shrink cover to insulate the completed joint, and torque to the connector manufacturer's spec rather than "as tight as it'll go."
 - Crimp splices (butt and compression) require a **crimping tool matched to the connector's die index/color code** — see the Wire Lugs page for the same die-index-vs-color-code distinction, which applies equally here.
 - Per NEC 110.14(B), a splice generally must remain **accessible** after installation (inside a box or enclosure) unless the specific splice product is listed for direct burial or another permitted exception — confirm the installation location is code-compliant for the splice type ordered.
+
+_Generated Schematic_
+![](/images/splice-schematic.png)

@@ -15,6 +15,8 @@ date: 2026-07-10
 
 A wire tap, in this context, refers to an **insulated multi-tap connector** (also called a power distribution tap, multi-tap block, or by the genericized brand name "Polaris connector") — a factory-insulated, set-screw-based connector that splits one larger main/run conductor into multiple smaller tap/load conductors without cutting the main conductor or building the splice with wire nuts and tape. Multi-tap connectors are common in street and parking lot lighting, service entrance and meter-base taps, solar/renewable energy strings, motor lead connections, and any application needing a clean, reusable, code-recognized tap off a feeder or branch circuit.
 
+![](/images/tap-example.png)
+
 Multi-tap connectors are selected based on:
 
 1. **Port count** — the number of conductor entry points, commonly 2 through 6 ports (occasionally more on larger power-distribution styles), each independently secured with its own set screw.
