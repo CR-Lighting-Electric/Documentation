@@ -48,13 +48,13 @@ In commercial projects, adapters reduce field labor, eliminate costly custom fab
 To standardize procurement, specification, and inventory tracking across commercial projects, use the following modular naming convention. This format captures transition type, sizing, material, and connection details while remaining compatible with major manufacturer catalogs.
 
 ```
-FROM_SIZE(xTO_SIZE) TYPE MATERIAL (SCHEDULE) (FINISH) CONNECTION (GENDER) Adapter
+FROM_SIZE(xTO-SIZE) TYPE MATERIAL (SCHEDULE) (FINISH) CONNECTION (GENDER) Adapter
 ```
 
 | Descriptor   | Explanation                                                                                                    |
 | ------------ | -------------------------------------------------------------------------------------------------------------- |
 | `FROM_SIZE`  | Source raceway size                                                                                            |
-| `(TO_SIZE)`  | Optional destination raceway size, defaults to `FROM_SIZE` if omitted.                                         |
+| `(TO-SIZE)`  | Optional destination raceway size, defaults to `FROM_SIZE` if omitted.                                         |
 | `TYPE`       | Type of adapter fitting, such as PVC, EMT, RMC, etc.                                                           |
 | `(MATERIAL)` | Optional material specifier; classics include Stainless-Steel, Aluminum, etc.                                  |
 | `(SCHEDULE)` | If `TYPE`/`MATERIAL` is PVC, optionally identify the schedule, defaults to Schedule-40.                        |

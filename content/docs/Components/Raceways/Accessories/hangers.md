@@ -17,7 +17,10 @@ A conduit hanger suspends a conduit run from an overhead structural point — ty
 
 ![](/images/conduit-hanger-example.png)
 
-The most common type is universally known in the field by its nickname, **"minnie"** (also spelled "minny," and originally derived from the Minerallac brand name, though the term is now used generically across manufacturers such as Steel City, Caddy/Erico, and Bridgeport). The steel conduit hanger secures 1/2" to 4" rigid (galvanized) or EMT conduit to a support using the hole on top of the hanger — typically suspended from strut or directly from concrete using a piece of threaded rod, though it can also attach conduit directly to an insulator or other surface. A minnie is a generally U-shaped device formed of sheet metal, with a flat base and two arms that have a cylindrically rounded part shaped to fit against the conduit; the outer ends of the arms have aligned holes to permit a bolt to pass through, clamping the conduit tightly when tightened. It is available with or without the lower bolt and nut included, so confirm whether hardware is bundled before ordering.
+The most common type is universally known in the field by its nickname, **"minnie"** (also spelled "minny," and originally derived from the Minerallac brand name, though the term is now used generically across manufacturers such as Steel City, Caddy/Erico, and Bridgeport).  Another very common version and nickname for these are **"Helicopter Brackets"**, where boxes and lighting fixtures can be fastened to the middle of the bar with clips on the ends. The steel conduit hanger secures 1/2" to 4" rigid (galvanized) or EMT conduit to a support using the hole on top of the hanger — typically suspended from strut or directly from concrete using a piece of threaded rod, though it can also attach conduit directly to an insulator or other surface. A minnie is a generally U-shaped device formed of sheet metal, with a flat base and two arms that have a cylindrically rounded part shaped to fit against the conduit; the outer ends of the arms have aligned holes to permit a bolt to pass through, clamping the conduit tightly when tightened. It is available with or without the lower bolt and nut included, so confirm whether hardware is bundled before ordering.
+
+_Helicopter Bracket Example_
+![](/images/helicopter-bracket-example.png)
 
 **Field installation practice worth noting:** multiple minnies can be stacked on a single piece of threaded rod to support several individual conduit runs at different heights from one anchor point — a common time-saving technique that avoids setting a separate structural anchor for every conduit in a group.
 
@@ -42,7 +45,7 @@ A related but distinct product is the **clevis hanger**, consisting of a lower U
 When identifying conduit hangers for vendor ordering, use the following naming structure, listing attributes in this order:
 
 ```
-SIZE (HARDWARE) (MATERIAL) (ROD) Conduit-Hanger
+SIZE TYPE (HARDWARE) (MATERIAL) (ROD) Conduit-Hanger
 ```
 
 ### Example Names
@@ -56,13 +59,14 @@ SIZE (HARDWARE) (MATERIAL) (ROD) Conduit-Hanger
 
 ### Convention Notes
 
-| Descriptor       | Explanation                                                                                                                                                                                                                   |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `SIZE`           | The conduit trade size the hanger is built to accommodate (e.g., 1/2", 1", 1-1/2", up to 4"). Leads the name, since fit is the first compatibility check.                                                                     |
-| `(HARDWARE)`     | With-Bolt or Without-Bolt, indicating whether the lower clamping bolt and nut are included with the hanger. Confirm this explicitly, since it's a common point of confusion on quotes. Although, assume default of With-Bolt. |
-| `(MATERIAL)`     | Galvanized-Steel (standard) or Stainless-Steel (corrosive/washdown environments), or regular Steel; assume regular Steel as the default.                                                                                      |
-| `(ROD)`          | The top mounting hole size, matched to the threaded rod being used (commonly 1/4" or 3/8"); assume 1/4" as the default.                                                                                                       |
-| `Conduit-Hanger` | Most foremen and field personnel call these parts "Minnies" or "Minis" for short; very common alias.                                                                                                                          |
+| Descriptor       | Explanation                                                                                                                                                                                                                                         |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `SIZE`           | The conduit trade size the hanger is built to accommodate (e.g., 1/2", 1", 1-1/2", up to 4"). Leads the name, since fit is the first compatibility check. A SIZE-TO-SIZE may be utilized for combination box/conduit hangers (Helicopter Brackets). |
+| `TYPE`           | Type of conduit hanger; use "Standard" for typical conduit hangers, also known as "Minis." Use Combination-Box for the field name "Helicopter Bracket" version.                                                                                     |
+| `(HARDWARE)`     | With-Bolt or Without-Bolt, indicating whether the lower clamping bolt and nut are included with the hanger. Confirm this explicitly, since it's a common point of confusion on quotes. Although, assume default of With-Bolt.                       |
+| `(MATERIAL)`     | Galvanized-Steel (standard) or Stainless-Steel (corrosive/washdown environments), or regular Steel; assume regular Steel as the default.                                                                                                            |
+| `(ROD)`          | The top mounting hole size, matched to the threaded rod being used (commonly 1/4" or 3/8"); assume 1/4" as the default.                                                                                                                             |
+| `Conduit-Hanger` | Most foremen and field personnel call these parts "Minnies" or "Minis" for short; very common alias.                                                                                                                                                |
 
 ## Typical Units of Measure
 
