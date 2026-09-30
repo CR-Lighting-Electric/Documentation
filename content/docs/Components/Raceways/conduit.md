@@ -51,7 +51,7 @@ Flexible plastic pipe that is highly durable and impact-resistant. It is especi
 
 ### **LFMC** (Liquid Tight Flexible Metal Conduit)
 
-Flexible metal core and a waterproof outer layer, making it both flexible and water-resistant. LFMC is suitable for installations exposed to moisture, oil & weather. It is commonly used in mechanical & electrical equipment connections that require water resistance.
+Flexible metal core and a waterproof outer layer, making it both flexible and water-resistant. LFMC is suitable for installations exposed to moisture, oil & weather. It is commonly used in mechanical & electrical equipment connections that require water resistance. Also known as its trademark "Sealtite."
 
 ### **FMC** (Flexible Metal Conduit)
 

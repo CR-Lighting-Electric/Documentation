@@ -1,5 +1,5 @@
 ---
-title:
+title: Bases
 description:
 function:
 type: docs
@@ -59,8 +59,8 @@ When identifying strut post bases for vendor ordering, use the following naming 
 | Descriptor  | Explanation                                                                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | `(CHANNEL)` | Optional channel size identifier, use 1/2"x1-1/2" nomenclature; assume default strut sizing for the channel size of 1-5/8"x1-5/8"             |
+| `(SIZE)`    | Base plate sizing of the plate itself; common sizes are square, so 6"x6" is common, but rectangular can also be specified.                    |
 | `HOLES`     | The number of holes on the base plate for fastening to concrete or other materials, with the most common number of four (one in each corner). |
-| `SIZE`      | Base plate sizing of the plate itself; common sizes are square, so 6"x6" is common, but rectangular can also be specified.                    |
 | `(FINISH)`  | Optional finish specifier for the base itself (Galvanized, Stainless-Steel, etc.)                                                             |
 | `(TYPE)`    | Type of base, most common being Strut, but any other type of base can be specified. Assume default of Strut and combine that with "-Base."    |
 

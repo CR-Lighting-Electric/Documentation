@@ -1,5 +1,5 @@
 ---
-title: Fasteners
+title: Kits
 description:
 function:
 type: docs
@@ -11,4 +11,4 @@ sidebar:
 open: true
 date: 2026-07-09
 ---
-Fasteners!
+Kits!

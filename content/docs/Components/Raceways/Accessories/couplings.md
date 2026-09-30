@@ -13,7 +13,7 @@ date: 2026-07-08
 ---
 ## Overview
 
-Couplings are the fittings used to join two lengths of raceway (conduit or tubing) together in a straight, continuous run. They are distinct from **connectors**, which terminate a raceway into a box, enclosure, or piece of equipment rather than joining two raceway sections to each other. Couplings are required any time a single stick of conduit is too short to complete a run, or when transitioning between raceway types or sizes mid-run.
+Couplings are the fittings used to join two lengths of raceway (conduit or tubing) together in a straight, continuous run. They are distinct from **connectors**, which terminate a raceway into a box, enclosure, or piece of equipment rather than joining two raceway sections to each other. Couplings are required any time a single stick of conduit is too short to complete a run, or when transitioning between raceway types or sizes mid-run. They are also known as "From-To's."
 
 ![](/images/coupling-example.png)
 

@@ -36,6 +36,6 @@ Use this space to house documentation about electrical parts and items, naming c
 
 ## Ordering Help
 
-**Generated Schematic**
+_Generated Schematic_
 
 ![](/images/path-to-image.png)

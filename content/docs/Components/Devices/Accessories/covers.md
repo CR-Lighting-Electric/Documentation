@@ -1,5 +1,5 @@
 ---
-title: Wallplates
+title: Covers
 description:
 function:
 type: docs
@@ -13,11 +13,11 @@ date: 2026-09-08
 ---
 ## Overview
 
-A wallplate (also called a cover plate or switch plate) mounts over an electrical box and its installed device — receptacle, switch, or a blank/unused opening — providing a finished appearance and covering the live wiring and box opening. Wallplates are selected based on gang count, device opening pattern, mounting style, material, and, for outdoor or wet locations, weatherproof rating.
+A device cover (also called a wallplate or switch plate) mounts over an electrical box and its installed device — receptacle, switch, or a blank/unused opening — providing a finished appearance and covering the live wiring and box opening. Wallplates are selected based on gang count, device opening pattern, mounting style, material, and, for outdoor or wet locations, weatherproof rating.
 
 ![](/images/wallplate-example.png)
 
-Wallplates are selected based on:
+Cover plates are selected based on:
 
 1. **Gang count** — the number of device openings/positions covered by a single plate, from 1-gang (single device) up through 10-gang or more for large multi-device layouts. Gang count must match the physical device box configuration, not just the number of devices installed.
 2. **Device opening pattern:**
@@ -52,29 +52,29 @@ Wallplates are selected based on:
 When identifying wallplates for vendor ordering, use the following naming structure, listing attributes in this order:
 
 ```
-GANG OPENING MOUNT MATERIAL COLOR Wallplate
+GANG (TYPE) OPENING MOUNT MATERIAL Cover (COLOR)
 ```
 
 ### Example Names
 
-- `1-Gang Toggle Device-Mount Nylon White Wallplate`
-- `1-Gang Decora Screwless Nylon Gray Wallplate`
-- `2-Gang Duplex Device-Mount Stainless-Steel Stainless-Steel Wallplate`
-- `2-Gang Toggle-Decora-Combo Device-Mount Nylon Ivory Wallplate`
+- `1-Gang Toggle Device-Mount Nylon White Cover`
+- `1-Gang Decora Screwless Nylon Gray Cover`
+- `2-Gang Duplex Device-Mount Stainless-Steel Stainless-Steel Cover`
+- `2-Gang Toggle-Decora-Combo Device-Mount Nylon Ivory Cover`
 - `1-Gang Blank Box-Mount Nylon White Wallplate`
-- `1-Gang Duplex Weatherproof Die-Cast-Aluminum Gray Wallplate`
-- `3-Gang Decora Screwless Nylon Black Wallplate`
+- `1-Gang Duplex Weatherproof Die-Cast-Aluminum Gray Cover`
+- `3-Gang Decora Screwless Nylon Black Cover`
 
 ### Convention Notes
 
-|Descriptor|Explanation|
-|---|---|
-|GANG|The number of device positions covered (e.g., 1-Gang, 2-Gang, 3-Gang). Leads the name, since it's the first physical compatibility check against the installed box.|
-|OPENING|Toggle, Decora, Duplex, Blank, Specialty, or a hyphenated combination (e.g., Toggle-Decora-Combo) for mixed-device plates. Must match the actual device(s) installed, not just the gang count.|
-|MOUNT|Device-Mount, Screwless, Box-Mount, or Weatherproof (for gasketed in-use covers, which mount differently from a standard plate).|
-|MATERIAL|Nylon, Stainless-Steel, Aluminum, Brass, or Die-Cast-Aluminum (the last typically paired with Weatherproof mount).|
-|COLOR|White, Ivory, Gray, Black, Brown, or the metal finish name for metal plates (e.g., Stainless-Steel, Brass).|
-|Catalog number|Vendor catalogs (e.g., Leviton, Eaton, Hubbell, Pass & Seymour) also carry their own part numbers; provide both the plain-language name and the catalog number when known, since exact opening dimensions and combination layouts are manufacturer-specific.|
+| Descriptor | Explanation                                                                                                                                                                                    |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `GANG`     | The number of device positions covered (e.g., 1-Gang, 2-Gang, 3-Gang). Leads the name, since it's the first physical compatibility check against the installed box.                            |
+| `TYPE`     | Standard or Industrial options. Industrial (also known as Explosed Work) are typically raised by 1/2" and are metallic. Default to Standard.                                                   |
+| `OPENING`  | Toggle, Decora, Duplex, Blank, Specialty, or a hyphenated combination (e.g., Toggle-Decora-Combo) for mixed-device plates. Must match the actual device(s) installed, not just the gang count. |
+| `MOUNT`    | Device-Mount, Screwless, Box-Mount are options. If weatherproof is necessary, refer to the "Weatherproof Covers" page under Enclosure Accessories for wall plates/covers there.                |
+| `MATERIAL` | Nylon, Stainless-Steel, Aluminum, Brass, or Die-Cast-Aluminum (the last typically paired with Weatherproof mount).                                                                             |
+| `(COLOR)`  | White, Ivory, Gray, Black, Brown, etc. Omit if the cover has a metal finish.                                                                                                                   |
 
 ## Typical Units of Measure
 

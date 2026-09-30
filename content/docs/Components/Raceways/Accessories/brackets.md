@@ -1,11 +1,11 @@
 ---
-title:
+title: Brackets
 description:
 function:
 type: docs
 obstype: component
 related:
-  - "[[Documentation/Components/Raceways/strut|strut]]"
+  - "[[Documentation/docs/components/Raceways/strut|strut]]"
 next:
 prev:
 sidebar:
