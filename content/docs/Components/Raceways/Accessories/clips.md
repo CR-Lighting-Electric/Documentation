@@ -13,7 +13,7 @@ date: 2026-09-21
 ---
 ## Overview
 
-A conduit clip — nicknamed a "bat wing" on the field for the two spring-steel wings that flare out from its body — is a one-piece spring-steel fastener used to attach conduit, armored cable (MC/AC), or communication cable directly to a mounting point without drilling, welding, or a separate strap and screw. The name traces back to a 1959 brand product; it has since become genericized across manufacturers the same way "Minnie" has for U-shaped conduit hangers. The clip's flared wings squeeze open to snap over the mounting point and close back down to grip it, while the opposite end forms a round-bodied loop or saddle that the conduit or cable is pressed into and held by spring tension.
+A conduit clip — nicknamed a "bat wing" on the field for the two spring-steel wings that flare out from its body — is a one-piece spring-steel fastener used to attach conduit, armored cable (MC/AC), or communication cable directly to a mounting point without drilling, welding, or a separate strap and screw. The name traces back to a 1959 brand product; it has since become genericized across manufacturers. The clip's flared wings squeeze open to snap over the mounting point and close back down to grip it, while the opposite end forms a round-bodied loop or saddle that the conduit or cable is pressed into and held by spring tension.
 
 ![](/images/conduit-clip-example.png)
 

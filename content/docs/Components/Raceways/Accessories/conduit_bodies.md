@@ -55,7 +55,7 @@ Conduit bodies are manufactured in several materials to match the conduit type a
 When ordering conduit bodies, the naming convention should follow this format:
 
 ```
-SIZE MATERIAL (SCHEDULE) (CONNECTION) (ADDITIONAL) TYPE Conduit-Body `(COLOR)`
+SIZE (CONNECTION) (ADDITIONAL) TYPE MATERIAL (SCHEDULE) Conduit-Body (COLOR)
 ```
 
 | Descriptor     | Explanation                                                                    |
@@ -70,11 +70,11 @@ SIZE MATERIAL (SCHEDULE) (CONNECTION) (ADDITIONAL) TYPE Conduit-Body `(COLOR)`
 
 ### Example Names
 
-- `1/2" Steel LB Conduit-Body`
-- `2-1/4" Stainless-Steel Compression T Conduit-Body`
-- `3" Aluminum Screw-Clamp C Conduit-Body Red`
-- `1" Steel Threaded LL Conduit-Body Blue`
-- `1-3/4" PVC Schedule-80 Push-Connect LB Conduit-Body`
+- `1/2" LB Steel Conduit-Body`
+- `2-1/4" Compression T Stainless-Steel Conduit-Body`
+- `3" Screw-Clamp C Aluminum Conduit-Body Red`
+- `1" Threaded LL Steel Conduit-Body Blue`
+- `1-3/4" Push-Connect LB PVC Schedule-80 Conduit-Body`
 
 ## Ordering Help
 

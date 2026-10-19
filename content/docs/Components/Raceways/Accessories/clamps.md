@@ -51,15 +51,16 @@ When identifying clamps for vendor ordering, use the following naming structure,
 
 
 ```
-SIZE (FLANGE) (MATERIAL) TYPE-Clamp
+SIZE (FLANGE) (ROD) (MATERIAL) TYPE-Clamp
 ```
 
-| Descriptor   | Explanation                                                                                   |
-| ------------ | --------------------------------------------------------------------------------------------- |
-| `SIZE`       | Threaded rod, bolt size, or any other size property the clamp is tapped/sized/gripped for.    |
-| `(FLANGE)`   | Optional size specifier for the flange sizing if the clamp is beam style.                     |
-| `(MATERIAL)` | Optional material specifier (Stainless-Steel, Aluminum, etc). Assume Steel.                   |
-| `TYPE`       | The actual type of clamp, i.e. Universal, U-Bolt, Riser, Beam, Conduit-Beam Junior-Beam, etc. |
+| Descriptor   | Explanation                                                                                                                      |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| `SIZE`       | Threaded rod, bolt size, or any other size property the clamp is tapped/sized/gripped for.                                       |
+| `(FLANGE)`   | Optional size specifier for the flange sizing if the clamp is beam style.                                                        |
+| `(ROD)`      | Optional rod size specifier if the beam clamp or other clamp utilizes a threaded hold for all thread or other fastening measure. |
+| `(MATERIAL)` | Optional material specifier (Stainless-Steel, Aluminum, etc). Assume Steel.                                                      |
+| `TYPE`       | The actual type of clamp, i.e. Universal, U-Bolt, Riser, Beam, Conduit-Beam Junior-Beam, etc.                                    |
 
 ### Example Names
 

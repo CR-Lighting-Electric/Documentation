@@ -73,12 +73,12 @@ SIZE TYPE (GRADE) (MATERIAL) Nut
 
 ## Typical Units of Measure
 
-|Unit|Typical Use|
-|---|---|
-|**Each (EA)**|Occasionally used for large or specialty sizes.|
-|**Pack**|Common small-quantity packaging, typically **25-100 per pack**.|
-|**Box**|Standard bulk packaging for common sizes, typically **100-500 per box**.|
-|**Case**|Distributor bulk quantity for large commercial or industrial projects.|
+| Unit          | Typical Use                                                                                                            |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Each (EA)** | Occasionally used for large or specialty size                                                                          |
+| **Pack**      | Common small-quantity packaging, typically **25-100 per pack                                                           |
+| **Box**       | Standard bulk packaging for common sizes, typically **100-500 per bo                                                   |
+| **Case**      | Distributor bulk quantity for large commercial or industrial projects. Suppliers in the past have quoted 100 per case. |
 
 ### Ordering Help
 

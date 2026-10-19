@@ -9,6 +9,7 @@ next:
 prev:
 sidebar:
 open: true
+imported: true
 date: 2026-08-24
 ---
 ## Overview
@@ -50,13 +51,6 @@ When identifying tie wire for vendor ordering, use the following naming structur
 | `(MATERIAL)` | Specify an exact material requested. Assume the default is Steel-Black-Annealed. Others might include Aluminum, Stainless-Steel, etc. |
 
 ### Example Names
-
-- `16GA BlackAnnealed 3.5lb Tie Wire`
-- `16GA Galvanized 3.5lb Tie Wire`
-- `16GA StainlessSteel304 3.5lb Tie Wire`
-- `16GA StainlessSteel316 5lb Tie Wire`
-- `16GA PVCCoated 3lb Tie Wire`
-- `14GA BlackAnnealed 5lb Tie Wire`
 
 - `Tie-Wire`
 - `18-Gauge Stainless-Steel Tie-Wire`

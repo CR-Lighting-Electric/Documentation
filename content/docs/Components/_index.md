@@ -13,6 +13,10 @@ date: 2026-07-09
 ---
 Use this space to house documentation about electrical parts and items, naming conventions, and anything related to the physical components CR Lighting & Electric purchases and uses on the job site.
 
+Field Materials CSV Item Database Columns:
+
+Name;Part Number;Parent Name;Parent Part Number;UOM;Cost Code;Item Groups;Manufacturer
+
 ## Overview
 
 ![](/images/path-to-example-image.png)
