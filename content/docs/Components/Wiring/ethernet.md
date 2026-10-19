@@ -10,6 +10,7 @@ prev:
 sidebar:
 open: true
 date: 2026-07-10
+imported: true
 ---
 ## Overview
 
@@ -51,25 +52,25 @@ Ethernet cable is selected based on:
 When identifying Ethernet cable for vendor ordering, use the following naming structure, listing attributes in this order:
 
 ```
-TYPE (SHIELD) (STRANDING) (SIZE) (JACKET) Ethernet-Cable (COLOR)
+(SIZE) TYPE (SHIELD) (STRANDING) (JACKET) Ethernet-Cable (COLOR)
 ```
 
 | Descriptor    | Explanation                                                                                                                                          |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `(SIZE)`      | Optionally specify the size of the conductors within the ethernet cable.                                                                             |
 | `TYPE`        | Standard designation of the cable: Cat5e, Cat6, Cat6A, etc.                                                                                          |
 | `SHIELD`      | Optionally specify Whether the cable is shielded or not; use "Shielded" if it is, otherwise use "Unshielded."                                        |
 | `(STRANDING)` | Optionally specify whether the conductor is Stranded or Solid, default Solid.                                                                        |
-| `(SIZE)`      | Optionally specify the size of the conductors within the ethernet cable.                                                                             |
 | `(JACKET)`    | Optionally Identify the jacket rating for the ethernet, "Plenum-Rated" or "Riser-Rated." If omitted, assume the jacket is general and has no rating. |
 | `(COLOR)`     | Optional identifier for the color of the ethernet jacket.                                                                                            |
 
 ### Example Names
 
-- `Cat5e Shielded Ethernet-Cable`
-- `Cat6A Unshielded Ethernet-Cable`
-- `Cat6 Plenum-Rated Ethernet-Cable`
-- `Cat5 Shielded Stranded 18-AWG Riser-Rated Ethernet-Cable`
-- `Cat8 Unshielded Ethernet-Cable`
+- `CAT-5E Shielded Ethernet-Cable`
+- `CAT-6A Unshielded Ethernet-Cable`
+- `CAT-6 Plenum-Rated Ethernet-Cable`
+- `18-AWG CAT-5E Shielded Stranded Riser-Rated Ethernet-Cable`
+- `CAT-8 Unshielded Ethernet-Cable`
 
 ## Typical Units of Measure
 

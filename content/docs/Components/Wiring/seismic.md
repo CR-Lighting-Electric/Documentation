@@ -9,6 +9,7 @@ next:
 prev:
 sidebar:
 open: true
+imported: true
 date: 2026-08-24
 ---
 ## Overview
@@ -51,21 +52,22 @@ Seismic wire serves two distinct functions, and both are commonly built from the
 When identifying seismic wire for vendor ordering, use the following naming structure, listing attributes in this order:
 
 ```
-(BRAND) (SIZE) (TYPE) (ENDS) Seismic-Wire
+(BRAND) (SIZE) (TYPE) (ENDS) (LENGTHS) Seismic-Wire
 ```
 
-| Descriptor | Explanation                                                                                                                                                                                                                                                                                         |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `(BRAND)`  | Many manufactures have their own suspension systems; designate a specific brand like Hilti for their specific systems.                                                                                                                                                                              |
-| `(SIZE)`   | Optional size specifier if the order dictates a specific system's gauge of seismic cable (16-Gauge, 18-Gauge, etc.); assume the typical 12-Gauge size as default.                                                                                                                                   |
-| `(TYPE)`   | Optional type specifier if the request is for something specific for the brand, for example a specific Hilti system such as the [X-MW ALH L](https://www.hilti.com/c/CLS_MODULAR_SUPPORT_SYSTEM/CLS_WIRE_SUSPENSION_SYS/r13332525) might be requested. Replace spaces with dashes if there are any. |
-| `(ENDS)`   | Optional ends to include with the seismic wire. Typical fastenings include Eyebolts-Ends, Loop-Ends, etc.                                                                                                                                                                                           |
+| Descriptor  | Explanation                                                                                                                                                                                                                                                                                         |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `(BRAND)`   | Many manufactures have their own suspension systems; designate a specific brand like Hilti for their specific systems.                                                                                                                                                                              |
+| `(SIZE)`    | Optional size specifier if the order dictates a specific system's gauge of seismic cable (16-Gauge, 18-Gauge, etc.); assume the typical 12-Gauge size as default.                                                                                                                                   |
+| `(TYPE)`    | Optional type specifier if the request is for something specific for the brand, for example a specific Hilti system such as the [X-MW ALH L](https://www.hilti.com/c/CLS_MODULAR_SUPPORT_SYSTEM/CLS_WIRE_SUSPENSION_SYS/r13332525) might be requested. Replace spaces with dashes if there are any. |
+| `(ENDS)`    | Optional ends to include with the seismic wire. Typical fastenings include Eyebolts-Ends, Loop-Ends, etc.                                                                                                                                                                                           |
+| `(LENGTHS)` | Length of the seismic wire segments, i.e. 12'-Lengths                                                                                                                                                                                                                                               |
 
 ### Example Names
 
 - `Hilti X-MW-ALH-L Seismic-Wire`
 - `Seismic Wire`
-- `Hilti BX3 Seismic-Wire`
+- `Hilti BX-3 12'-Lengths Seismic-Wire`
 
 
 ## Typical Units of Measure

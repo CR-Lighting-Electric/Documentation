@@ -9,6 +9,7 @@ next:
 prev:
 sidebar:
 open: true
+imported: true
 date: 2026-05-21
 ---
 ## Overview
@@ -25,6 +26,10 @@ Consists of insulated conductors enclosed in an interlocked aluminum or steel ar
 - **NM-B Cable** - trade name "Romex" frequently supplied with conductor insulation types that support 90C operation for derating calculations and commonly marked NMB. The “B” suffix seen on product markings (NMB) indicates conductor insulation types suitable for 90C ampacity adjustment calculations. This is the most common type of NM cable.
 - **NMC Cable** is the focus when dealing with Designed for challenging indoor environments, its specifically engineered as a corrosion and moisture-resistant cable. Its construction features a solid, integral plastic sheath that is moisture, fungus, and corrosion-resistant.
 - **UF-B Cable** (Underground Feeder) is for direct burial and outdoor use. It is the appropriate choice where the run is exposed outdoors or is to be buried directly in the ground and a cable (rather than raceway) is permitted.
+
+## SER Cable
+
+SER stands for **Service Entrance Round** cable, which is designed to deliver power from utility lines to a building's main electrical panel. It typically consists of insulated conductors and is used in above-ground installations, rated for 600 volts.
 
 ## Fire Alarm Cable (MC/Regular Cable)
 
@@ -54,17 +59,17 @@ Dimming wires play a crucial role in modern lighting systems, particularly with 
 ## Naming Convention
 
 ```
-SIZE/CONDUCTORS TYPE (STRANDING) (CONDUCTOR MATERIAL) (ARMOR MATERIAL)-(Armor) (SHIELDING) Cable (COLOR)
+SIZE/CONDUCTORS TYPE (STRANDING) (ARMOR MATERIAL)-(Armor) (SHIELDING) (RATING) Cable (COLOR)
 ```
 
 | Descriptor                 | Explanation                                                                                                                                                                                                                                                                                                    |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `SIZE/CONDUCTORS`          | Refers to the wiring size within the cord, and the number of conductors present. For example, 12/2 cord would mean each wire is 12-AWG with 2 conductors each, and usually one ground.                                                                                                                         |
 | `TYPE`                     | Defines the cable type whether that is MC cable, NM-B, NMC, FPLP, FPLR, MC-FPLP, MC-FPLR, Dimming, etc.                                                                                                                                                                                                        |
-| `(STRANDING)`              | Defines the optional characteristic of the stranding type of the conductors themselves whether that is stranded or solid in title form (Stranded, Solid). If left off, assume stranded. If fire alarm cable and left off, assume solid.                                                                        |
-| `(CONDUCTOR MATERIAL)`     | Refers to the material of the conductors themselves such as aluminum or copper in title form (Aluminum, Copper). Optional characteristic where if not present, assume copper.                                                                                                                                  |
+| `(STRANDING)`              | Defines the optional characteristic of the stranding type of the conductors and the material of the conductors themselves whether that is stranded or solid in title form (Stranded-Aluminum, Solid-Copper). If left off, assume Stranded-Copper. If fire alarm cable and left off, assume Solid-Copper.       |
 | `(ARMOR MATERIAL)-(Armor)` | Defines the material of the actual metal clad surrounding the conductors inside, where typical armor materials are steel or aluminum. If specified, put in title form with "-Armor" and if left off, assume aluminum as the trade standard if MC. If not MC, typical cabling is surrounded in a PVC sheathing. |
 | `(SHIELDING)`              | Defines an optional parameter to designate if the cabling is shielded or not. Options in title form include Shielded, or Unshielded. If left off, it is assumed that the cable is _not_ shielded.                                                                                                              |
+| `(RATING)`                 | Optional rating specifier for Plenum or Riser. Refer as Plenum-Rated or Riser-Rated in the convention. Default to no rating if left off.                                                                                                                                                                       |
 | `(COLOR)`                  | If specified, cabling can be ordered in a specific color.                                                                                                                                                                                                                                                      |
 
 ### Example Names
@@ -81,6 +86,7 @@ SIZE/CONDUCTORS TYPE (STRANDING) (CONDUCTOR MATERIAL) (ARMOR MATERIAL)-(Armor) (
 - `14/4 MC-FPLP Stranded Copper Steel-Armor Shielded Cable`
 - `8/2 NM-B Solid Aluminum Cable`
 - `12/2 Dimming Cable`
+- `4/3 SER Solid-Aluminum`
 
 ## Units of Measure - Linear Feet
 

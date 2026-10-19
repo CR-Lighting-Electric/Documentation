@@ -9,6 +9,7 @@ next:
 prev:
 sidebar:
 open: true
+imported: true
 date: 2026-06-29
 ---
 ## Overview
@@ -33,14 +34,15 @@ Constructed from aluminum, stainless steel, or engineered composites, pulling he
 ## Naming Convention
 
 ```
-SIZE (TYPE) (HEAD) Pulling-Head
+SIZE (TYPE) (HEAD) (LANYARD) Pulling-Head
 ```
 
-| Descriptor | Explanation                                                                                                                                                                             |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `SIZE`     | The diameter of the pulling head in typical wire fashion such as 300-KCMIL, 2-AWG, 1/0-AWG, etc.                                                                                        |
-| `(TYPE)`   | The type of connection the pulling head utilizes, with the most common being Crimping (use Crimp-Type). If left off, assume Crimp-Type.                                                 |
-| `(HEAD)`   | The type of connection head used to interface with the wiring. Includes Swivel-Head, Rigid-Head, Plate-Head, or some other specialty -Head. If left off, assume the typical Rigid-Head. |
+| Descriptor  | Explanation                                                                                                                                                                             |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `SIZE`      | The diameter of the pulling head in typical wire fashion such as 300-KCMIL, 2-AWG, 1/0-AWG, etc.                                                                                        |
+| `(TYPE)`    | The type of connection the pulling head utilizes, with the most common being Crimping (use Crimp-Type). If left off, assume Crimp-Type.                                                 |
+| `(HEAD)`    | The type of connection head used to interface with the wiring. Includes Swivel-Head, Rigid-Head, Plate-Head, or some other specialty -Head. If left off, assume the typical Rigid-Head. |
+| `(LANYARD)` | Length of the trailing lanyard behind the pulling head, i.e. 15"-Lanyard. Default to whatever the supplier gives in this case if left off.                                              |
 
 ### Example Names
 

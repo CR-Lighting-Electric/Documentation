@@ -9,6 +9,7 @@ next:
 prev:
 sidebar:
 open: true
+imported: true
 date: 2026-05-21
 ---
 ## Overview
@@ -42,16 +43,15 @@ Conductive material that routes an electrical current to some application or dev
 The code specifically calls out wire sizes on AWG, and more importantly, KCMIL. Suppliers and foremen may use MCM for their sizing on wiring, but this could easily be misread and misunderstood as MC for metal clad wiring. Let's use KCMIL to keep the two distinct. A wire component can be named as such:
 
 ```
-SIZE STRANDING MATERIAL INSULATION Wire (COLOR)
+SIZE STRANDING INSULATION Wire (COLOR)
 ```
 
-| Descriptor   | Explanation                                                                                                                                                                                                                                                                  |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `SIZE`       | Includes the number sizing and the unit of measure, KCMIL or AWG. An example of the size portion of the convention could look like "250-KCMIL" or "1/0-AWG" or "2-AWG."                                                                                                      |
-| `STRANDING`  | Refers to the strand status of wire, which includes either stranded or solid. The type portion of the convention should use its full word as a title (Stranded, Solid).                                                                                                      |
-| `MATERIAL`   | Includes the type of material used in the wiring. Common types are copper or aluminum. In rare cases, silver, gold, or other conductive materials can be used. The material portion of the convention should list out the full word in title form (Aluminum, Copper, Silver) |
-| `INSULATION` | Refers to the type of insulation that surrounds the wiring. Refer to the lettering of insulation in the information provided above. If the -2 is left off, assume the second modernized generation. Exaples include "THHN" or "THWN-2" or "XHHW-2."                          |
-| `(COLOR)`    | Refers to the insulation color that the wiring may contain. Black is by far the most common insulation color, but in runs where multiple lines are utilized in low or high voltage settings, coloring might need to specifically be called out. Assume black if left off.    |
+| Descriptor   | Explanation                                                                                                                                                                                                                                                                                |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `SIZE`       | Includes the number sizing and the unit of measure, KCMIL or AWG. An example of the size portion of the convention could look like "250-KCMIL" or "1/0-AWG" or "2-AWG."                                                                                                                    |
+| `STRANDING`  | Refers to the strand status and material of wire, which includes either stranded or solid. The type portion of the convention should use its full word as a title (Stranded, Solid), hyphenated with the conductor material used, i.e. Stranded-Aluminum, Solid-Copper.                    |
+| `INSULATION` | Refers to the type of insulation that surrounds the wiring. Refer to the lettering of insulation in the information provided above. If the -2 is left off, assume the second modernized generation. Exaples include "THHN" or "THWN-2" or "XHHW-2", or "Bare" if no insulation is desired. |
+| `(COLOR)`    | Refers to the insulation color that the wiring may contain. Black is by far the most common insulation color, but in runs where multiple lines are utilized in low or high voltage settings, coloring might need to specifically be called out. Assume black if left off.                  |
 
 ### Example Wiring Names
 
@@ -60,7 +60,7 @@ SIZE STRANDING MATERIAL INSULATION Wire (COLOR)
 - `3/0-AWG Solid Copper THHN Wire Blue`
 - `1/0-AWG Solid Aluminum XHHW-2 Wire Green`
 - `250-KCMIL Stranded Copper THHN-2 Wire Brown`
-- `500-KCMIL Stranded Aluminum XHHW-2 Wire Black-With-White-Stripe`
+- `500-KCMIL Stranded Aluminum XHHW-2 Wire Blue-Traced-Neutral`
 
 ## Typical Units of Measure - LF
 

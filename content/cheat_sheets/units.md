@@ -45,3 +45,20 @@ Slack is the company's primary method of communication for construction procurem
 | Shallow | 500       |
 | Deep    | 250       |
 
+## Hardware Amounts
+
+| Item | Sizing | Amount |
+| ---- | ------ | ------ |
+| Nuts | Case   | 100    |
+
+## Wire Nuts
+
+| Coloring | Sizing | Amount |
+| -------- | ------ | ------ |
+| Red/Tan  | Jug    | 750    |
+
+## Electrical Tape
+
+| Sizing | Amount |
+| ------ | ------ |
+| Sleeve | 10     |
