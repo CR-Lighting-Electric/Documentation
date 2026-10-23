@@ -15,6 +15,8 @@ date: 2026-09-30
 
 A bolt is an externally-threaded fastener with a formed head, installed through aligned holes in two or more parts and secured with a nut (see the Nuts page) or driven into a tapped hole or wood substrate. Bolts differ from all-thread rod (see the All-Thread Rod page) in having a fixed head on one end rather than being threaded full-length and cut to size, and they're selected as much by head/body style — which determines how the bolt seats, resists rotation, and engages the substrate — as by size, grade, and material.
 
+![](/images/bolt-example.png)
+
 Bolt types:
 
 - **Hex bolts** — the standard general-purpose bolt with a six-sided head for wrench/socket engagement; the default choice for steel-to-steel connections, equipment mounting, and general structural fastening.
@@ -87,3 +89,5 @@ SIZE TYPE GRADE MATERIAL LENGTH Bolt
 - Confirm **pilot hole and pre-drilling requirements for Lag bolts** — driving a lag bolt without an appropriately sized pilot hole risks splitting the wood substrate or stripping the thread engagement.
 - Measure **length under the head**, not overall bolt length, and confirm it accounts for the full clamped material stack plus enough thread protrusion for the nut and a lock washer if one is used.
 - Match **material to environment and galvanic compatibility** with the nuts, washers, and rod it will be installed against, consistent with the rest of this Hardware category.
+
+![](/images/bolt-schematic.png)
