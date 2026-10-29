@@ -56,7 +56,7 @@ Filament is selected based on:
 When identifying 3D printing filament for vendor ordering, use the following naming structure, listing attributes in this order:
 
 ```
-MATERIAL COLOR (DIAMETER-Diameter) Filament
+MATERIAL COLOR ADHESIVE(DIAMETER-Diameter) Filament
 ```
 
 ### Example Names
