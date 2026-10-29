@@ -71,10 +71,10 @@ SIZE LINE COLOR (MATERIAL) (PLY) (ADHESIVE) Label-Stock
 
 These examples show the pattern; confirm the colors, sizes, and availability on the JP Plus product page.
 
-- `12"-24"-1/16" Mattes Red/White Adhesive ABS Label-Stock`
-- `12"-24"-1/8" Mattes Yellow/Black No-Adhesive Acrylic Label-Stock`
-- `12"-12"-1/16" Ultra-Mattes Ivory/Dark-Brown Adhesive Acrylic Label-Stock`
-- `24"-24"-1/16" Rowmark Red/White ABS 3-Ply 3M-Standard-Adhesive Label-Stock`
+- `12"-24"-1/16" Rowmark-Mattes Red/White Adhesive ABS Label-Stock`
+- `12"-24"-1/8" Rowmark-Mattes Yellow/Black No-Adhesive Acrylic Label-Stock`
+- `12"-12"-1/16" Rowmark-Ultra-Mattes Ivory/Dark-Brown Adhesive Acrylic Label-Stock`
+- `24"-24"-1/16" Rowmark-Mattes Red/White ABS 3-Ply 2mil-ADA-Adhesive Label-Stock`
 - `18"-39"-1/8" Red/White Phenolic-Norplex Label-Stock`
 
 ### Convention Notes
@@ -85,8 +85,8 @@ These examples show the pattern; confirm the colors, sizes, and availability on 
 | `LINE`       | The product line, such as Mattes, Ultra-Mattes, or Rowmark (Matte acrylic), or Norplex (phenolic). The line commonly sets the ply count, finish, and engraving method.                                                                   |
 | `COLOR`      | The face and core colors written as Face/Core (for example White/Black). A single-ply sheet takes one color (for example Black). Multi-word color names are hyphenated.                                                                  |
 | `(MATERIAL)` | Acrylic, Phenolic, or ABS. Acrylic can be extruded or cast; cast acrylic starts at 1/4" thick, so label work uses extruded sheet. If the `LINE` dictates the material, then this field can be omitted and defaulted to whatever is used. |
-| `(PLY)`      | Optional ply (layers) specifier for a more custom label stock order.                                                                                                                                                                     |
-| `(ADHESIVE)` | Adhesive options attached to the underside of the stock. Rowmark acrylic and Norplex phenolic are both sold either way. Separate the description with hyphens.                                                                           |
+| `(PLY)`      | Optional ply (layers) specifier for a more custom label stock order. Defaults to 2-Ply.                                                                                                                                                  |
+| `(ADHESIVE)` | Adhesive options attached to the underside of the stock. Rowmark acrylic and Norplex phenolic are both sold either way. Separate the description with hyphens. Defaults to no adhesive backing.                                          |
 
 ## Typical Units of Measure
 
